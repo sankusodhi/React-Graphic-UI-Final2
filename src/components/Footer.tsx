@@ -21,7 +21,7 @@ function Footer() {
         {/* Column 1 */}
         <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[-19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">PLATFORM</h5>
-          <ul>
+          <ul className="gap-2 transform -translate-x-[1px]">
             <li className="mb-2 hover:text-sky-600">Text 1</li>
             <li className="mb-2 hover:text-sky-600">Text 2</li>
             <li className="mb-2 hover:text-sky-600">Text 3</li>
@@ -40,7 +40,7 @@ function Footer() {
         {/* Column 2 */}
         <div className="cursor-pointer hidden sm:flex sm:flex-col">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">DESIGN SERVICES</h5>
-          <ul>
+          <ul className=" transform -translate-x-[1px]">
             <li className="mb-2 hover:text-sky-600">Content Writing</li>
             <li className="mb-2 hover:text-sky-600">Graphic Design</li>
             <li className="mb-2 hover:text-sky-600">Video Production</li>
@@ -164,9 +164,10 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row items-center justify-between border-t border-[#192138c9]">
+      <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row  justify-between border-t border-[#192138c9]">
+        <div className="flex gap-6 text-sm">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="flex sm:mr-20 space-x-4 text-center transform translate-x-[3.4in]">
+        <ul className="flex  space-x-4 text-start ">
           <li>
             <a href="#" className="text-[#1700ea6d] hover:underline">
               Terms of Service
@@ -183,8 +184,8 @@ function Footer() {
             </a>
           </li>
         </ul>
-
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px] pt-8 sm:mb-10 mr-10 sm:mr-20">
+</div>
+        <p className="text-sm text-gray-600 text-center transform translate-x-[60px]  sm:mb-10 mr-10 sm:mr-20">
           A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
       </div>
