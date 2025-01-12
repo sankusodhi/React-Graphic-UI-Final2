@@ -140,24 +140,25 @@ function Footer() {
           <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaInstagram className="mr-2 text-pink-500 text-2xl" />
+                <FaInstagram className="mr-2 text-black text-2xl" />
               </a>
             </li>
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaLinkedin className="mr-2 text-2xl" />
+                <FaLinkedin className="mr-2 text-black text-2xl" />
               </a>
             </li>
           </ul>
           <ul className="sm:flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
-                <FaFacebookSquare className="mr-2 text-black text-2xl" />
+                <FaXTwitter className="mr-2 text-black text-2xl" />
               </a>
             </li>
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
-                <FaXTwitter className="mr-2 text-black text-2xl" />
+                
+                <FaFacebookSquare className="mr-2 text-black text-2xl" />
               </a>
             </li>
           </ul>
