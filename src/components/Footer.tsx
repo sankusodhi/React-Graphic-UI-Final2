@@ -128,8 +128,8 @@ function Footer() {
           <div className="text-start">
           <p>Please connect with us at</p>
           <p>+91-XXXXXXXXXX</p>
-          <p className="flex items-center justify-between">
-            or Write us at <a href="mailto:EMAIL">EMAIL</a>
+          <p className="">
+            or Write us at <a className="" href="mailto:EMAIL">EMAIL</a>
           </p>
           </div>
         </div>
