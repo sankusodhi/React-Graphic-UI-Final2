@@ -103,7 +103,7 @@ function Footer() {
       <div className="sm:container flex justify-between pt-4 ml-4 sm:mx-auto px-4 sm:py-6 border-t border-[#192138c9] sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Company */}
         
-        <div className="sm:w-[30%]  sm:mr-10 sm:transform sm:-translate-x-[19px]">
+        <div className="sm:w-[30%]   sm:transform sm:-translate-x-[19px]">
           <h5 className="text-lg font-semibold mb-4 text-[#908134]">COMPANY</h5>
           <ul>
             <li className="mb-2">About Us</li>
