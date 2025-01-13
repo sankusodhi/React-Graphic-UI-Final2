@@ -151,12 +151,12 @@ export default function ZeptoSlider() {
 
   return (
 
-    <div className="sm:mt-20 sm:mx-24 relative">
+    <div className="sm:mt-20 sm:mx-52 relative">
       <Slider {...settings}>
       {testimonials.map((testimonial, index) => (
-        <div className="sm:flex  sm:items-center sm:justify-center sm:h-80   sm:mx-24  sm:ml-40">
+        <div className="sm:flex  sm:items-center sm:justify-center sm:h-80   ">
       <motion.div
-        className="flex flex-col md:flex-row items-center gap-10   rounded-lg max-w-4xl"
+        className="flex flex-col md:flex-row items-center gap-10   rounded-lg max-w-7xl"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
