@@ -89,26 +89,26 @@ function FeaturesSection() {
       <motion.section
         id="features"
       
-        className="bg-[#070324] text-white sm:py-16 sm:px-20 pt-5"
+        className="bg-[#070324] text-white sm:py-16 sm:px-16 pt-5"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-3xl md:text-7xl font-semibold font-raleway  space-y-4    text-center  mb-12"
+            className="text-4xl md:text-[63px]  font-raleway  space-y-4 text-center sm:mt-16  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <p className='mb-3'>Engaging Visual Creatives</p>
-            <p>That Drive Results</p> 
+            <p className=''>Engaging Visual Creatives</p>
+            <p className='p-5'>That Drive Results</p> 
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <motion.div
                 key={index}
-                className=" p-6 rounded-lg  flex flex-col "
+                className=" p-10 rounded-lg  flex flex-col "
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.6, delay: 0.3 + index * 0.2 }}

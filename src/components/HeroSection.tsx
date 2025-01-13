@@ -184,14 +184,14 @@ import { SiAdobe } from "react-icons/si";
     </motion.section> */}
 
 
-    <motion.section className="bg-[#070324] py-10 px-5 sm:py-16 sm:px-24 pt-5 ">
+    <motion.section className="bg-[#070324]  px-5 sm:py-5 sm:px-28  ">
 
       <div className="sm:flex  sm:justify-around sm:items-center text-white">
 
         <div>
 
             <motion.h1
-            className="text-4xl font-raleway sm:text-5xl lg:text-7xl h-full  mb-6 space-y-4"
+            className="text-4xl font-raleway sm:text-5xl lg:text-7xl h-full  mb-7 space-y-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -199,7 +199,7 @@ import { SiAdobe } from "react-icons/si";
            <p className='mb-3'>Driving Sales</p> <p className='mb-3'> and Capturing</p><p className='mb-3'> Attention Through </p><div className="text-yellow-400">Graphic Designs</div>
           </motion.h1>
            <motion.p
-            className="text-lg md:text-xl mb-6 sm:ml-4 sm:text-start py-3 leading-relaxed"
+            className="text-lg md:text-xl mb-6 sm:ml-5 sm:text-start py-3 leading-relaxed"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
@@ -210,7 +210,7 @@ import { SiAdobe } from "react-icons/si";
             <li>Impactful Marketing Collateral.</li>
           </motion.p>
            <motion.button
-            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-3 px-6 rounded"
+            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-3 px-7 "
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -221,11 +221,11 @@ import { SiAdobe } from "react-icons/si";
         <motion.section initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}>
-          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[632px] sm:h-[600px]' />
+          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[635px] sm:h-[650px]  sm:ml-20 sm:mb-12' />
         </motion.section>
 
       </div>
-     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-20  ml-20 sm:translate-x-20">
+     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-10  ml-20 sm:translate-x-24">
   <SiAdobe className="w-9 h-9" />
   <span className="text-3xl font-ubuntu ">Adobe</span>
 </div>

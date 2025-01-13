@@ -90,13 +90,13 @@ const ExpertToolsSection = () => {
 
   return (
     <motion.section
-      className="bg-[#f2ebdf] text-center py-6 sm:py-10 lg:py-14 sm:px-16"
+      className="bg-[FFF9E8] text-center py-6 sm:py-10 lg:py-14 sm:px-16"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       <motion.h2
-        className="text-xl sm:text-3xl md:text-5xl lg:text-6xl text-black mb-4 sm:mb-6 lg:mb-8"
+        className="text-xl sm:text-3xl md:text-5xl lg:text-7xl text-black mb-4 sm:mb-6 lg:mb-8"
         variants={itemVariants}
       >
         Expertly Crafted with <br /> the Latest Tools
@@ -119,11 +119,11 @@ const ExpertToolsSection = () => {
         ].map((tool, index) => (
           <motion.div
             key={index}
-            className="w-16 h-16 sm:w-12 sm:h-12 lg:w-16 lg:h-16 text-black flex items-center justify-center gap-6"
+            className="w-20 h-16 text-black flex items-center justify-center  gap-6"
             variants={itemVariants}
             whileHover="hover"
           >
-            <img className="h-20 w-20 gap-8" src={tool.src} alt={tool.alt} />
+            <img className="sm:h-20  sm:max-w-20 gap-12 " src={tool.src} alt={tool.alt} />
           </motion.div>
         ))}
       </motion.div>

@@ -224,7 +224,7 @@ export default function BenefitSection() {
       {/* Benefit Section */}
       {/* <div className="text-center mt-10"> */}
       <div className=" sm:ml-20 mt-12">
-        <h2 className="text-xl md:text-6xl sm:text-5xl ">How we will benefit you.</h2>
+        <h2 className="text-xl md:text-[63px] sm:text-5xl ">How we will benefit you.</h2>
       </div>
 
       {/* Grid Section */}
@@ -247,7 +247,7 @@ export default function BenefitSection() {
             </p>
             <div className='p-6'>
               {/* <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-medium">Hire Designers <LuArrowUpRight /> */}
-              <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-medium">Hire Designers &#x2197;</a>
+              <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-medium">Hire Designera &#x2197;</a>
             </div>
           </div>
           <div className="text-center pt-10 ">

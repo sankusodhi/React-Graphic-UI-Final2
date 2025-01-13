@@ -110,7 +110,11 @@ const CreativeTalentSection = () => {
           </div>
           <div className="sm:py-4">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
-            Scale your Teams Faster by Hiring the{" "}
+            Scale your Teams
+            <p>
+            Faster by Hiring {" "}
+            </p> 
+            the
             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
           </h1>
@@ -125,7 +129,7 @@ const CreativeTalentSection = () => {
             <li>Showcase Your Creative Talent to the World.</li>
             <li>Get Hired for Projects That Elevate Your Career.</li>
           </ul>
-          <button className="px-6 py-3 bg-[#1600ea] text-white font-semibold rounded-md hover:bg-blue-700">
+          <button className="px-6 py-3 bg-[#1600ea] text-white font-semibold  hover:bg-blue-700">
             Become Talent
           </button>
           </div>

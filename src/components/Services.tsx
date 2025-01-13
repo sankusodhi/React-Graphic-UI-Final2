@@ -306,7 +306,7 @@ export default function TakeAdvantageSection() {
       <div className="container mx-auto">
         <motion.h2
          
-          className="text-3xl md:text-6xl ml-8 font-medium font-raleway text-black pb-12"
+          className="text-5xl md:text-[66px] ml-8   text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}

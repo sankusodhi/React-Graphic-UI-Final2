@@ -74,7 +74,7 @@ export default function Navbar() {
       <div className="sm:flex font-light text-2xl items-center sm:justify-between space-x-4 sm:ml-32 ">
         <a
           href="#"
-          className="hidden md:inline-block border border-white px-4 py-1 rounded hover:bg-white hover:text-[#0f0e24] transition"
+          className="hidden md:inline-block border border-white px-4 py-1  hover:bg-white hover:text-[#0f0e24] transition"
         >
           <div className="flex items-center gap-2">
                <p>Hire Talent</p>
@@ -85,7 +85,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between gap-24">
         <a
           href="#"
-          className="bg-[#1600ea] px-6 py-2  rounded hover:bg-blue-500 transition "
+          className="bg-[#1600ea] px-6 py-2   hover:bg-blue-500 transition "
         >
           Get Started
         </a>
