@@ -123,7 +123,7 @@ function Footer() {
         </div>
 
         {/* Get in Touch */}
-        <div className="sm:ml-44 text-center sm:transform sm:translate-x-[19px]">
+        <div className="sm:ml-40 text-center sm:transform sm:translate-x-[19px]">
           <h5 className="text-lg  font-semibold mb-4 text-start text-[#908134]">GET IN TOUCH</h5>
           <div className=" text-start">
           <p>Please connect with us at</p>
