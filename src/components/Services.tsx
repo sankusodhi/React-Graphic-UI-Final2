@@ -298,7 +298,7 @@ export default function TakeAdvantageSection() {
     <motion.section
       id="take-advantage"
      
-      className="bg-[#ffffff] sm:py-16 pt-8 mb-8 sm:px-20"
+      className="bg-[#ffffff] sm:py-16 pt-8 pb-8 sm:px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
