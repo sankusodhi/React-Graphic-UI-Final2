@@ -117,13 +117,13 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-[580px] text-center sm:text-start  ml-14 sm:ml-0 " style={{ transform: 'translateX(-0.6in)' }}>
+        <div className="sm:mr-[580px] text-center sm:text-start  ml-14 sm:ml-5 " style={{ transform: 'translateX(-0.9in)' }}>
           <h5 className="text-lg font-semibold mb-4  text-[#908134]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
         {/* Get in Touch */}
-        <div className="sm:ml-44 text-center sm:transform sm:translate-x-[1px]">
+        <div className="sm:ml-44 text-center sm:transform sm:translate-x-[19px]">
           <h5 className="text-lg  font-semibold mb-4 text-start text-[#908134]">GET IN TOUCH</h5>
           <div className=" text-start">
           <p>Please connect with us at</p>
