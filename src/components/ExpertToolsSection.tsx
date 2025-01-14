@@ -96,7 +96,7 @@ const ExpertToolsSection = () => {
       animate="visible"
     >
       <motion.h2
-        className="text-xl sm:text-3xl md:text-5xl lg:text-7xl text-black mb-4 sm:mb-6 lg:mb-8"
+        className="text-xl sm:text-3xl md:text-5xl font-Arimo font-normal lg:text-7xl text-black mb-4 sm:mb-6 lg:mb-8"
         variants={itemVariants}
       >
         Expertly Crafted with <br /> the Latest Tools

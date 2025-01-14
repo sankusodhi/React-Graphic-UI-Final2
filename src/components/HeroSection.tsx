@@ -184,19 +184,26 @@ import { SiAdobe } from "react-icons/si";
     </motion.section> */}
 
 
-    <motion.section className="bg-[#070324]  px-5 sm:py-5 sm:px-28  ">
+    <motion.section className="bg-[#070324]  sm:py-1 sm:px-8  ">
 
       <div className="sm:flex  sm:justify-around sm:items-center text-white">
 
-        <div>
+        <div className=' sm:mt-16'>
 
             <motion.h1
-            className="text-4xl font-raleway sm:text-5xl lg:text-7xl h-full sm:mt-1  mb-7 space-y-4"
+            className="text-4xl font-Arimo font-normal sm:text-5xl lg:text-[65px] h-full  mb-4 space-y-0"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-           <p className='mb-3'>Driving Sales</p> <p className='mb-3'> and Capturing</p><p className='mb-3'> Attention Through </p><div className="text-yellow-400">Graphic Designs</div>
+            <p>
+
+           <p className='mb-2'>Driving Sales</p>
+         <p className='mb-2'> and Capturing</p>
+         <p className='mb-2'> Attention Through </p>
+         <div className="text-yellow-400">Graphic Designs</div>
+            </p>
+           
           </motion.h1>
            <motion.p
             className="text-lg md:text-xl mb-6 sm:ml-5 sm:text-start py-3 leading-relaxed"
@@ -205,12 +212,12 @@ import { SiAdobe } from "react-icons/si";
             transition={{ duration: 0.6, delay: 0.4 }}
           >
 
-           <li className='mb-4'> On-board the Top 1% Design Talent.</li> 
-           <li className='mb-4'> Communicate your brand’s story.</li>
+           <li className='mb-2'> On-board the Top 1% Design Talent.</li> 
+           <li className='mb-2'> Communicate your brand’s story.</li>
             <li>Impactful Marketing Collateral.</li>
           </motion.p>
            <motion.button
-            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-3 px-7 "
+            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-7 "
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -221,11 +228,11 @@ import { SiAdobe } from "react-icons/si";
         <motion.section initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}>
-          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[635px] sm:h-[740px]  sm:ml-20 sm:mb-12' />
+          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[540px] sm:h-[540px]  sm:ml-20 sm:mt-8 sm:translate-x-[10px]' />
         </motion.section>
 
       </div>
-     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-10  ml-20 sm:translate-x-[100px]">
+     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 ml-20 sm:translate-x-[20px]">
   <SiAdobe className="w-9 h-9" />
   <span className="text-3xl font-ubuntu ">Adobe</span>
 </div>

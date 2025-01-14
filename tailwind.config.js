@@ -9,6 +9,7 @@ export default {
         sans: ["sans", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],
         Inter: ["Inter", "sans-serif"],
+        Arimo: ["Arimo", "sans-serif"],
       },
     },
   },

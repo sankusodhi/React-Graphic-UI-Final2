@@ -32,7 +32,7 @@ export default function Navbar() {
      <ul className="hidden md:flex space-x-8">
         {navItems.map((item) => (
           <li key={item.name} className="group relative sm:ml-10">
-            <span className="cursor-pointer flex items-center font-raleway text-xl gap-2">
+            <span className="cursor-pointer flex items-center font-raleway text-md gap-2">
               {item.name}
               <span className="cursor-pointer">
                 {/* SVG Arrow */}
@@ -71,7 +71,7 @@ export default function Navbar() {
 
       {/* Right Navigation Buttons */}
    
-      <div className="sm:flex font-light text-2xl items-center sm:justify-between space-x-4 sm:ml-32 ">
+      <div className="sm:flex font-light text- items-center sm:justify-between space-x-4 sm:ml-32 ">
         <a
           href="#"
           className="hidden md:inline-block border border-white px-4 py-1  hover:bg-white hover:text-[#0f0e24] transition"

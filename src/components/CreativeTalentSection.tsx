@@ -100,16 +100,18 @@ const CreativeTalentSection = () => {
               onClick={() => handleClick('candidates')}
             >
               <p>For Candidates</p>
+              <hr />
             </div>
             <div
               className={`cursor-pointer px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
               onClick={() => handleClick('enterprises')}
             >
               <p>For Enterprises</p>
+              <hr />
             </div>
           </div>
           <div className="sm:py-4">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 text-black leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl w-[90%] sm:w-[80%] mb-6 font-Arimo font-normal text-black leading-tight">
             Scale your Teams
             <p>
             Faster by Hiring {" "}
@@ -118,13 +120,13 @@ const CreativeTalentSection = () => {
             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
             Talent.
           </h1>
-          <p className="text-[#000000] text-xl text-justify mb-6 w-[90%] sm:w-[78%] pt-6">
+          <p className="text-[#000000] font-Arimo font-normal text-xl text-justify mb-6 w-[90%] sm:w-[78%] pt-6">
             Join an exclusive talent pool and connect with leading brands
             searching for top creative professionals. Showcase your expertise,
             land your dream role, and redefine your career with endless
             opportunities.
           </p>
-          <ul className="list-disc pl-8 text-xl  text-[#000000] text-justify mb-6">
+          <ul className="list-disc pl-8 text-xl font-Arimo font-normal  text-[#000000] text-justify mb-6">
             <li>Get Placed with Top Brands Like Google and Amazon.</li>
             <li>Showcase Your Creative Talent to the World.</li>
             <li>Get Hired for Projects That Elevate Your Career.</li>

@@ -146,7 +146,7 @@ export default function ZeptoSlider() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    arrows: true,
+    arrows: false,
   };
 
   return (
@@ -166,13 +166,13 @@ export default function ZeptoSlider() {
           <img className ="rounded-lg sm:pr-10 w-[200px]" src={testimonial.image} />
 
           <div className="mt-4 text-center md:text-left ">
-            <p className="font-medium text-gray-700">{testimonial.name}</p>
-            <p className="text-sm text-gray-500">{testimonial.role}</p>
+            <p className=" text-gray-700 font-Arimo font-normal">{testimonial.name}</p>
+            <p className="text-sm text-gray-500 font-Arimo font-normal">{testimonial.role}</p>
           </div>
         </div>
 
         {/* Right Section */}
-        <div className="text-gray-700 sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6 shadow-lg rounded-lg max-w-4xl">
+        <div className="text-gray-700 font-Arimo font-normal sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6 shadow-lg rounded-lg max-w-4xl">
           <p>
             {testimonial.feedback}
           </p>
@@ -193,7 +193,7 @@ export default function ZeptoSlider() {
       <style>{`
         .slick-dots {
           position: absolute;
-          bottom: 0px;    /* Positioning from the bottom */
+          bottom: 90px;    /* Positioning from the bottom */
           right: 0px;     /* Positioning from the right side */
           display: flex;
           justify-content: center;

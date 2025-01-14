@@ -89,14 +89,14 @@ function FeaturesSection() {
       <motion.section
         id="features"
       
-        className="bg-[#070324] text-white sm:py-16 sm:px-16 pt-5"
+        className="bg-[#070324] text-white sm:py-16 sm:px-14 pt-5"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-4xl md:text-[63px]  font-raleway space-y-4 text-center sm:mt-16  mb-12"
+            className="text-4xl md:text-[63px]  font-Arimo font-normal space-y-4 text-center sm:mt-16  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -115,7 +115,7 @@ function FeaturesSection() {
               >
                 <img src={feature.icon} alt={feature.title} className="w-16 h-16 mb-4 text-justify" />
                 <h3 className="text-3xl  mb-2 ">{feature.title}</h3>
-                <p className="text-xl text-gray-300 text-justify ">{feature.description}</p>
+                <p className="text-[20px] text-gray-300 text-justify ">{feature.description}</p>
               </motion.div>
             ))}
           </div>
