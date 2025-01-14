@@ -69,7 +69,7 @@ function Footer() {
 
         {/* Column 4 */}
         <div className="cursor-pointer hidden sm:flex sm:flex-col sm:ml-16 sm:w-[400px]">
-          <h5 className="text-[15px]font-semibold mb-4 text-[#997200]">MEDIA SERVICES</h5>
+          <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">MEDIA SERVICES</h5>
           <ul className="text-[15px]">
             <li className="mb-4 hover:text-sky-600">Media Planning & Buying</li>
             <li className="mb-4 hover:text-sky-600">Influencer Marketing</li>
