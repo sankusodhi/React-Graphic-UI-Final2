@@ -97,7 +97,7 @@ const toggleQuestion = (id: number) => {
               onClick={() => toggleQuestion(id)}
             >
               <span className="text-lg mb-8 font-semibold  break-words sm:text-3xl">
-                {id}. {question}
+                {id}. <span className=' sm:ml-12 translate-x-[20px]'> {question}</span>
               </span>
               <button className="text-white text-xl text-center sm:text-3xl lg:text-3xl sm:mb-10 rounded-full w-14 h-14 bg-[#1600ea] t">
                 {openQuestion === id ? '×' : '+'}

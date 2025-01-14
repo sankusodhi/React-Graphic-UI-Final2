@@ -96,7 +96,7 @@ function FeaturesSection() {
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-4xl md:text-[63px]  font-raleway  space-y-4 text-center sm:mt-16  mb-12"
+            className="text-4xl md:text-[63px]  font-raleway space-y-4 text-center sm:mt-16  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}

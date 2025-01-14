@@ -191,7 +191,7 @@ import { SiAdobe } from "react-icons/si";
         <div>
 
             <motion.h1
-            className="text-4xl font-raleway sm:text-5xl lg:text-7xl h-full  mb-7 space-y-4"
+            className="text-4xl font-raleway sm:text-5xl lg:text-7xl h-full sm:mt-1  mb-7 space-y-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -221,11 +221,11 @@ import { SiAdobe } from "react-icons/si";
         <motion.section initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}>
-          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[635px] sm:h-[650px]  sm:ml-20 sm:mb-12' />
+          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[635px] sm:h-[740px]  sm:ml-20 sm:mb-12' />
         </motion.section>
 
       </div>
-     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-10  ml-20 sm:translate-x-24">
+     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-10  ml-20 sm:translate-x-[100px]">
   <SiAdobe className="w-9 h-9" />
   <span className="text-3xl font-ubuntu ">Adobe</span>
 </div>
