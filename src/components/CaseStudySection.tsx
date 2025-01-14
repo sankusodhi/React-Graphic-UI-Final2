@@ -108,47 +108,68 @@
 import { motion } from "framer-motion";
 
 const CaseStudySection = () => {
+
+  const itemVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
+    hover: { scale: 1.2 },
+  };
   return (
     <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white mt-20">
       <div className="max-w-8xl mt-8 sm:ml-20">
         <img className="sm:ml-96  flex justify-center  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
         <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-24 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16">
-          <a href="/">
+          <motion.a href="/" 
+           variants={itemVariants}
+            whileHover="hover"
+          >
             <img
               src="/assets/park+.png"
               alt="Park+"
-              className="w-24 sm:w-40 sm:pr-2 grayscale hover:grayscale-0 transition-all duration-300"
+              className="w-24 sm:w-40 sm:pr-2 grayscale  transition-all duration-300"
             />
-          </a>
-          <a href="/">
+          </motion.a>
+          <motion.a href="/"
+          variants={itemVariants}
+            whileHover="hover"
+          >
             <img
               src="/assets/piramal-new.svg"
               alt="Piramal"
-              className="w-24 sm:w-40 grayscale hover:grayscale-0 transition-all duration-300"
+              className="w-24 sm:w-40 grayscale  transition-all duration-300"
             />
-          </a>
-          <a href="/">
+          </motion.a>
+          <motion.a href="/"
+          variants={itemVariants}
+            whileHover="hover"
+          >
             <img
               src="/assets/adani_logo.png"
               alt="Adani"
-              className="w-24 sm:w-40 grayscale hover:grayscale-0 transition-all duration-300"
+              className="w-24 sm:w-40 grayscale  transition-all duration-300"
             />
-          </a>
-          <a href="/">
+          </motion.a>
+          <motion.a href="/"
+          variants={itemVariants}
+            whileHover="hover"
+          >
             <img
               src="/assets/Screenshot 2025-01-04 145058.png"
               alt="RVshare"
-              className="w-24 sm:w-40 grayscale hover:grayscale-0 transition-all duration-300"
+              className="w-24 sm:w-40 grayscale transition-all duration-300"
             />
-          </a>
-          <a href="/">
+          </motion.a>
+          <motion.a href="/"
+          variants={itemVariants}
+            whileHover="hover"
+          >
             <img
               src="/assets/apollo247.svg"
               alt="Apollo 247"
-              className="w-24 sm:w-40 grayscale hover:grayscale-0 transition-all duration-300"
+              className="w-24 sm:w-40 grayscale transition-all duration-300"
             />
-          </a>
+          </motion.a>
         </div>
 
 
