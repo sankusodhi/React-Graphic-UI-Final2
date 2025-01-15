@@ -10,6 +10,7 @@ export default {
         Roboto: ["Roboto", "sans-serif"],
         Inter: ["Inter", "sans-serif"],
         Arimo: ["Arimo", "sans-serif"],
+        Quicksand: ["Quicksand","Arimo", "sans-serif"],
       },
     },
   },

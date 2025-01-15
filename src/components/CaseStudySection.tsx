@@ -188,7 +188,7 @@ const CaseStudySection = () => {
               <img className="h-8 w-8" src="/pic-29.png" />
               <span className="text-[10px]">FEATURED CASE STUDY</span>
             </div>
-            <h3 className="text-xl sm:text-3xl lg:text-5xl  font-Arimo font-normal  leading-8 mb-8">
+            <h3 className="text-xl sm:text-3xl lg:text-5xl font-Arimo font-normal  leading-8 mb-8">
               "Reimagining a Legacy: Redefining Top's India
               <p>
                 Brand Identity and Strategy

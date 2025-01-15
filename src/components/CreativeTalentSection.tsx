@@ -84,6 +84,14 @@ const CreativeTalentSection = () => {
     setActiveButton(button);
   };
 
+
+  const itemVariants = {
+    hidden: { opacity: 0, scale: 0.8 },
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } },
+    hover: { scale: 1.1 },
+  };
+
+
   return (
     <section className="py-12 bg-[#f9f4eb] md:pl-1 overflow-x-hidden">
       <div className="container mx-auto flex flex-col lg:flex-row items-center md:ml-20">
@@ -94,20 +102,35 @@ const CreativeTalentSection = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="flex text-xl mb-4 justify-center sm:justify-start">
+          <div className="flex text-xl mb-4 justify-center  sm:justify-start">
             <div
               className={`cursor-pointer px-2 ${activeButton === 'candidates' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
               onClick={() => handleClick('candidates')}
             >
-              <p>For Candidates</p>
+             <motion.div 
+              variants={itemVariants}
+            whileHover="hover"
+              >
+              <a href="/"
+               
+              >For Candidates</a>
+              </motion.div>
               <hr />
             </div>
             <div
-              className={`cursor-pointer px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
-              onClick={() => handleClick('enterprises')}
+              // className={`cursor-pointer border-b-2 px-2 ${activeButton === 'enterprises' ? 'text-[#1600ea] border-b-4 border-blue-600' : 'text-gray-400 border-b-2 border-transparent'}`}
+              className="cursor-pointer px-2 text-gray-400 border-gray-300 border-b-2 "
+              // onClick={() => handleClick('enterprises')}
             >
-              <p>For Enterprises</p>
-              <hr />
+              <motion.div 
+              variants={itemVariants}
+            whileHover="hover"
+              >
+              <a href="/"
+               
+              >For Enterprises</a>
+              </motion.div>
+              {/* <hr className='text-black' /> */}
             </div>
           </div>
           <div className="sm:py-4">

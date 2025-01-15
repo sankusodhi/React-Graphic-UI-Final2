@@ -121,20 +121,25 @@ export default function ZeptoSlider() {
         "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
     },
     {
-      image: "/pic-15.png",
-      name: "John Doe",
-      role: "Creative Director",
+      image: "/pic-14.png",
+      name: "Sanskruti Verma",
+      role: "Visual Design Manager",
       feedback:
-        "This project exceeded expectations by delivering outstanding designs. It helped us engage better with customers and achieve our goals efficiently.",
+        "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
+    },{
+      image: "/pic-14.png",
+      name: "Sanskruti Verma",
+      role: "Visual Design Manager",
+      feedback:
+        "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
     },
     {
-      image: "/pic-16.png",
-      name: "Jane Smith",
-      role: "Marketing Head",
+      image: "/pic-14.png",
+      name: "Sanskruti Verma",
+      role: "Visual Design Manager",
       feedback:
-        "The team's expertise in graphic design is remarkable! The results significantly boosted our brand presence and sales.",
+        "Zepto has partnered with us to enhance our brand’s visual identity through expert graphic design. This collaboration drives revenue growth by creating high-quality, engaging designs that resonate with our audience. Together, we’re scaling our brand and staying ahead in a competitive market.",
     },
-    
   ];
 
   // Slider Settings
@@ -154,7 +159,7 @@ export default function ZeptoSlider() {
     <div className="sm:mt-20 sm:mx-52 relative">
       <Slider {...settings}>
       {testimonials.map((testimonial, index) => (
-        <div className="sm:flex  sm:items-center sm:justify-center sm:h-80   ">
+        <div className="sm:flex  sm:items-center sm:justify-center mb-3 sm:h-80   ">
       <motion.div
         className="flex flex-col md:flex-row items-center gap-10   rounded-lg max-w-7xl"
         initial={{ opacity: 0, y: 50 }}
@@ -166,13 +171,13 @@ export default function ZeptoSlider() {
           <img className ="rounded-lg sm:pr-10 w-[200px]" src={testimonial.image} />
 
           <div className="mt-4 text-center md:text-left ">
-            <p className=" text-gray-700 font-Arimo font-normal">{testimonial.name}</p>
-            <p className="text-sm text-gray-500 font-Arimo font-normal">{testimonial.role}</p>
+            <p className=" text-black text-lg font-Arimo font-medium">{testimonial.name}</p>
+            <p className="text-[19px] text-gray-500 font-Arimo font-normal">{testimonial.role}</p>
           </div>
         </div>
 
         {/* Right Section */}
-        <div className="text-gray-700 font-Arimo font-normal sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6 shadow-lg rounded-lg max-w-4xl">
+        <div className="text-black font-Arimo font-normal sm:text-xl text-center md:text-left sm:w-auto  bg-white p-6  rounded-lg max-w-4xl">
           <p>
             {testimonial.feedback}
           </p>
@@ -197,8 +202,7 @@ export default function ZeptoSlider() {
           right: 0px;     /* Positioning from the right side */
           display: flex;
           justify-content: center;
-          gap: 10px;
-          width: 100px;
+          width: 120px;
           z-index: 10;     /* Make sure dots are visible above other content */
         }
 

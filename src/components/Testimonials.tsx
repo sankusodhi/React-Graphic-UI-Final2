@@ -86,9 +86,9 @@ import { useState } from 'react';
 
 const testimonials = [
   { rating: 4, text: 'Text', name: 'Anik Jain', role: 'Designer' },
+  { rating: 5, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
   { rating: 4, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
-  { rating: 4, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
-  { rating: 4, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
+  { rating: 3, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
   { rating: 4, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
   { rating: 4, text: 'Text', name: 'Pragya', role: 'Mobikwik' },
   { rating: 5, text: 'Text', name: 'Rohan', role: 'Engineer' },
@@ -96,10 +96,13 @@ const testimonials = [
   { rating: 5, text: 'Text', name: 'Mohan', role: 'Manager' },
   { rating: 4, text: 'Text', name: 'Kiran', role: 'Analyst' },
   { rating: 4, text: 'Text', name: 'Ravi', role: 'Consultant' },
-  { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
+  { rating: 5, text: 'Text', name: 'Rahul', role: 'Designer' },
    { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
     { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
-     { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' }
+     { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' },
+     { rating: 3, text: 'Text', name: 'Rahul', role: 'Designer' },
+     { rating: 5, text: 'Text', name: 'Rahul', role: 'Designer' },
+      { rating: 4, text: 'Text', name: 'Rahul', role: 'Designer' }
 ];
 
 const Testimonials = () => {
