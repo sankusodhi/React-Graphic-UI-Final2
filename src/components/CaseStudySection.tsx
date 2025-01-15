@@ -106,7 +106,7 @@
 
 
 import { motion } from "framer-motion";
-
+import { LuArrowRight } from "react-icons/lu"; 
 const CaseStudySection = () => {
 
   const itemVariants = {
@@ -201,19 +201,22 @@ const CaseStudySection = () => {
             <hr className="sm:w-[600px]" />
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start">
               <div>
-                <p className="text-3xl sm:text-7xl text-green-400">250%</p>
-                <p className="text-xs mt-4 sm:text-lg text-[#c3ccd3] font-Inter">Increase in Click Rate</p>
+                <p className="text-3xl sm:text-8xl text-green-400">250%</p>
+                <p className="text-xs mt-4 sm:text-xl text-[#c3ccd3] font-Inter">Increase in Click Rate</p>
               </div>
               <div>
-                <p className="text-3xl sm:text-7xl text-green-400">192k+</p>
-                <p className="text-xs sm:text-lg mt-4 text-[#c3ccd3] font-Inter">Leads Generated with Creatives</p>
+                <p className="text-3xl sm:text-8xl text-green-400">192k+</p>
+                <p className="text-xs sm:text-xl mt-4 text-[#c3ccd3] font-Inter">Leads Generated with Creatives</p>
               </div>
             </div>
             <a
               href="/case-studies/tops"
-              className="inline-flex items-center text-white font-semibold mt-4 hover:underline"
+              className="inline-flex items-center text-lg  text-white font-semibold mt-4 hover:underline"
             >
-              Read Case Study <span className="ml-2 rounded-full px-1 text-black  bg-white">&rarr;</span>
+              Read Case Study <span className="ml-2  rounded-full py-1 px-1 text-black  bg-white">
+              <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
+
+              </span>
             </a>
           </motion.div>
 
@@ -228,7 +231,7 @@ const CaseStudySection = () => {
             <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="rounded-lg shadow-lg w-[400px] sm:w-[490px] md:w-[530px] h-[510px] sm:mr-4"
+              className="rounded-lg shadow-lg w-[400px] sm:w-[490px] md:w-[529px] h-[510px] sm:mr-4"
             />
           </motion.div>
         </div>
