@@ -345,7 +345,7 @@ export default function TakeAdvantageSection() {
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}
         >
           
-          {visibleCount === 9 ? <>Show More <span className=" m">↓</span> </> : "Show Less ↑"}
+          {visibleCount === 9 ? "Show More ↓" : "Show Less ↑"}
         </motion.button>
       </div>
     </motion.section>
