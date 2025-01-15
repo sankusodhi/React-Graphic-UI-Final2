@@ -76,9 +76,11 @@ export default function Navbar() {
           href="#"
           className="hidden md:inline-block border border-white px-4 py-1  hover:bg-white hover:text-[#0f0e24] transition"
         >
-          <div className="flex items-center gap-2">
+          <div className="flex items-center  gap-2">
                <p>Hire Talent</p>
-           <LuArrowUpRight />
+               <div className="text-2xl">
+             <LuArrowUpRight />
+               </div>
           </div>
       
         </a>

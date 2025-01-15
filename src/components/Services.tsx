@@ -176,6 +176,8 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { LuAArrowUp } from "react-icons/lu";
+import { LuAArrowDown } from "react-icons/lu";
 
 export default function TakeAdvantageSection() {
   const items = [
@@ -342,7 +344,8 @@ export default function TakeAdvantageSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}
         >
-          {visibleCount === 9 ? "Show More ↓" : "Show Less ↑"}
+          
+          {visibleCount === 9 ? <>Show More <span className=" m">↓</span> </> : "Show Less ↑"}
         </motion.button>
       </div>
     </motion.section>

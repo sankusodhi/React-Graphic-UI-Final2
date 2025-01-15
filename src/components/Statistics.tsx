@@ -213,8 +213,8 @@
 "use client";
 
 import { motion } from 'framer-motion';
-
-// import { LuArrowUpRight } from "react-icons/lu";
+// import {luArrowUpRight} from 'react-icons/lu';
+import { LuArrowUpRight } from "react-icons/lu";
 
 export default function BenefitSection() {
   return (
@@ -247,7 +247,13 @@ export default function BenefitSection() {
             </p>
             <div className='p-6'>
               {/* <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-medium">Hire Designers <LuArrowUpRight /> */}
-              <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-Arimo font-normal">Hire Designera &#x2197;</a>
+              {/* <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-Arimo font-normal">Hire Designera &#x2197;</a> */}
+              {/* <a href="#" className="text-[#1600ea] sm:px-8 sm:mt-16 font-Arimo font-normal"><div>Hire Designera<LuArrowUpRight /></div></a> */}
+              <a href="#" className="text-[#1600ea] text-md sm:px-8 font-Arimo font-normal flex items-center">
+  Hire Designer
+  <LuArrowUpRight className="ml-1 text-xl sm:text-2xl" />
+</a>
+
             </div>
           </div>
           <div className="text-center pt-10 ">
@@ -276,7 +282,10 @@ export default function BenefitSection() {
                   Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
                 </p>
                 <div className='p-6'>
-                  <a href="#" className="text-[#1600ea]  sm:px-8 font-Arimo font-normal"> Know More  &#x2197;</a>
+                  <a href="#" className="text-[#1600ea] flex sm:px-8 font-Arimo font-normal"> Know More 
+  <LuArrowUpRight className="ml-1 text-xl sm:text-2xl" />
+
+                  </a>
                 </div>
               </div>
               <div className=" sm:px-14 ">
@@ -305,7 +314,10 @@ export default function BenefitSection() {
                 </p>
                 <div className='p-6'>
 
-                  <a href="#" className="text-[#1600ea] sm:px-8 font-Arimo font-normal">Know More  &#x2197;</a>
+                  <a href="#" className="text-[#1600ea] sm:px-8 font-Arimo flex font-normal">Know More 
+  <LuArrowUpRight className="ml-1 text-xl sm:text-2xl" />
+
+                  </a>
 
                 </div>
               </div>

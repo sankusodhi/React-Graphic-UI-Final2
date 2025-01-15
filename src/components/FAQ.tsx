@@ -99,9 +99,11 @@ const toggleQuestion = (id: number) => {
               <span className="text-lg mb-8 font-semibold  break-words sm:text-3xl">
                 {id}. <span className=' sm:ml-12 translate-x-[20px]'> {question}</span>
               </span>
-              <button className="text-white text-xl text-center sm:text-3xl lg:text-3xl sm:mb-10 rounded-full w-14 h-14 bg-[#1600ea] t">
+              
+              <button className={`text-xl text-center sm:text-3xl lg:text-3xl sm:mb-10 text-[#1600ea] rounded-full w-14 h-14 border hover:text-white border-[#1600ea] hover:bg-[#1600ea] t `}>
                 {openQuestion === id ? '×' : '+'}
               </button>
+              
             </div>
             <AnimatePresence>
               {openQuestion === id && (

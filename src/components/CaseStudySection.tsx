@@ -106,7 +106,7 @@
 
 
 import { motion } from "framer-motion";
-
+import { LuArrowBigRight } from "react-icons/lu";
 const CaseStudySection = () => {
 
   const itemVariants = {
@@ -188,12 +188,13 @@ const CaseStudySection = () => {
               <img className="h-8 w-8" src="/pic-29.png" />
               <span className="text-[10px]">FEATURED CASE STUDY</span>
             </div>
-            <h3 className="text-xl sm:text-3xl lg:text-5xl font-Arimo font-normal  leading-8 mb-8">
-              "Reimagining a Legacy: Redefining Top's India
-              <p>
+            <h3 className="text-xl sm:text-3xl lg:text-[48px] font-Arimo font-normal leading-8 mb-8">
+              "Reimagining a Legacy:
+              <p className="mt-5"> Redefining Top's India</p>
+              <p className="mt-5">
                 Brand Identity and Strategy
               </p>
-              <p>
+              <p className="mt-5">
                 for the Modern Consumer"
               </p>
             </h3>
@@ -212,7 +213,10 @@ const CaseStudySection = () => {
               href="/case-studies/tops"
               className="inline-flex items-center text-white font-semibold mt-4 hover:underline"
             >
-              Read Case Study <span className="ml-2 rounded-full px-1 text-black  bg-white">&rarr;</span>
+              Read Case Study <span className="ml-2 rounded-full px-1 text-black  bg-white">
+                  <LuArrowUpToLine className="ml-1 text-xl sm:text-2xl" />
+                
+              </span>
             </a>
           </motion.div>
 
