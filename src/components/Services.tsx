@@ -176,9 +176,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { LuAArrowUp } from "react-icons/lu";
-import { LuAArrowDown } from "react-icons/lu";
-
+import { LuArrowDown, LuArrowUp } from "react-icons/lu";
 export default function TakeAdvantageSection() {
   const items = [
     {
@@ -339,13 +337,15 @@ export default function TakeAdvantageSection() {
         <motion.button
           onClick={toggleVisibility}
           
-          className="mt-8 mx-auto block border border-black hover:bg-blue-600 text-black text-lg font-semibold hover:text-white py-2 px-6 "
+          className="mt-8 mx-auto  block border border-black hover:bg-blue-600 text-black text-lg font-semibold hover:text-white py-2 px-6 "
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: items.length * 0.1 + 0.2 }}
         >
-          
-          {visibleCount === 9 ? "Show More ↓" : "Show Less ↑"}
+          <div className="flex items-center justify-center">
+
+          {visibleCount === 9 ? <> Show More <LuArrowDown className="ml-1 text-2xl" /></> : <>Show Less <LuArrowUp className="ml-1 text-2xl" /></>}
+          </div>
         </motion.button>
       </div>
     </motion.section>

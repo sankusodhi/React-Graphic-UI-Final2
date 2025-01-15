@@ -110,7 +110,7 @@ import { motion } from "framer-motion";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { LuArrowRight } from "react-icons/lu";
 export default function ZeptoSlider() {
   const testimonials = [
     {
@@ -186,7 +186,10 @@ export default function ZeptoSlider() {
            
             className="inline-block mt-4 text-[#1600ea] hover:underline sm:flex items-center"
           >
-            View Portfolio <span className="ml-2">→</span>
+            View Portfolio <span className="ml-2">
+                            <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
+              
+            </span>
           </a>
         </div>
       </motion.div>
