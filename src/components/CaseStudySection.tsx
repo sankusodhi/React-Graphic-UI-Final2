@@ -106,7 +106,7 @@
 
 
 import { motion } from "framer-motion";
-import { LuArrowBigRight } from "react-icons/lu";
+
 const CaseStudySection = () => {
 
   const itemVariants = {
@@ -213,10 +213,7 @@ const CaseStudySection = () => {
               href="/case-studies/tops"
               className="inline-flex items-center text-white font-semibold mt-4 hover:underline"
             >
-              Read Case Study <span className="ml-2 rounded-full px-1 text-black  bg-white">
-                  <LuArrowUpToLine className="ml-1 text-xl sm:text-2xl" />
-                
-              </span>
+              Read Case Study <span className="ml-2 rounded-full px-1 text-black  bg-white">&rarr;</span>
             </a>
           </motion.div>
 
