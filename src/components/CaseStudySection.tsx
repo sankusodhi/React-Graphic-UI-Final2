@@ -117,7 +117,7 @@ const CaseStudySection = () => {
   return (
     <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white">
       <div className="max-w-8xl mt-8 sm:ml-20">
-        <img className="sm:ml-[400px] sm:pl-10 flex justify-center  w-[400px]" src="/pic-12.png" />
+        <img className="sm:ml-96  flex justify-center  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
         <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-24 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16">
           <motion.a href="/" 
@@ -211,7 +211,7 @@ const CaseStudySection = () => {
             </div>
             <a
               href="/case-studies/tops"
-              className="inline-flex items-center text-xl  text-white  mt-4 hover:underline"
+              className="inline-flex items-center text-2xl  text-white  mt-4 hover:underline"
             >
               Read Case Study <span className="ml-2  rounded-full py-1 px-1 text-black  bg-white">
               <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
