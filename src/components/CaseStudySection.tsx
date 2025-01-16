@@ -117,7 +117,7 @@ const CaseStudySection = () => {
   return (
     <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white">
       <div className="max-w-8xl mt-8 sm:ml-20">
-        <img className="sm:ml-96  flex justify-center  w-[500px]" src="/pic-12.png" />
+        <img className="sm:ml-96  flex justify-center  w-[400px]" src="/pic-12.png" />
         {/* Logos Section */}
         <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-24 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16">
           <motion.a href="/" 
