@@ -330,7 +330,7 @@ export default function TakeAdvantageSection() {
                 />
                 <h3 className="text-2xl text-black  font-semibold font-sans  text-center">{item.title}</h3>
               </div>
-              <p className="text-xl text-gray-600 font-Arimo font-normal px-10 text-justify">{item.description}</p>
+              <p className="text-xl text-gray-600 font-Arimo font-normal px-10 mr-2 text-justify">{item.description}</p>
             </motion.div>
           ))}
         </div>
