@@ -115,11 +115,11 @@ const CaseStudySection = () => {
     hover: { scale: 1.2 },
   };
   return (
-    <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white mt-20">
+    <section className="bg-[#070324] py-8 sm:py-16 px-4  lg:px-8 text-white">
       <div className="max-w-8xl mt-8 sm:ml-20">
         <img className="sm:ml-96  flex justify-center  w-[500px]" src="/pic-12.png" />
         {/* Logos Section */}
-        <div className="flex flex-wrap justify-center  items-center sm:gap-24 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16">
+        <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-24 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16">
           <motion.a href="/" 
            variants={itemVariants}
             whileHover="hover"
@@ -186,7 +186,7 @@ const CaseStudySection = () => {
 
             <div className="flex gap-2 items-center">
               <img className="h-9 w-9" src="/pic-29.png" />
-              <span className="text-[14px]">FEATURED CASE STUDY</span>
+              <span className="text-[13px]">FEATURED CASE STUDY</span>
             </div>
             <h3 className="text-xl sm:text-3xl lg:text-[48px] font-Arimo font-normal leading-8 mb-8">
               "Reimagining a Legacy:
@@ -211,7 +211,7 @@ const CaseStudySection = () => {
             </div>
             <a
               href="/case-studies/tops"
-              className="inline-flex items-center text-lg  text-white  mt-4 hover:underline"
+              className="inline-flex items-center text-xl  text-white  mt-4 hover:underline"
             >
               Read Case Study <span className="ml-2  rounded-full py-1 px-1 text-black  bg-white">
               <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
