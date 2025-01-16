@@ -211,7 +211,7 @@ const CaseStudySection = () => {
             </div>
             <a
               href="/case-studies/tops"
-              className="inline-flex items-center text-3xl  text-white  mt-4 hover:underline"
+              className="inline-flex items-center text-2xl  text-white  mt-4 hover:underline"
             >
               Read Case Study <span className="ml-2  rounded-full py-1 px-1 text-black  bg-white">
               <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
