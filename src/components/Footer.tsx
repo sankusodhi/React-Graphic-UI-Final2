@@ -108,7 +108,7 @@ function Footer() {
           <ul className="text-[15px]">
             <li className="mb-2">About Us</li>
             <p className="pb-4">Join our team</p>
-            <li>
+            <li >
               <a href="#" className="text-white hover:underline border min-w-10 border-[#1600ea] bg-[#1600ea] rounded p-2">
                 Join Team
               </a>
@@ -165,7 +165,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row  justify-between border-t border-[#192138c9]">
+      <div className=" mx-auto  py-4 sm:flex flex-col md:flex-row  p-4 justify-between border-t border-[#192138c9]">
         <div className="flex gap-6 text-sm">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
         <ul className="flex  space-x-4 text-start ">

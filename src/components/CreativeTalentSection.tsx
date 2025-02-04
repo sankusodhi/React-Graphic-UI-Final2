@@ -20,7 +20,7 @@ const CreativeTalentSection = () => {
 
   return (
     <>
-    <section className='p-6'>
+    <section className='p-4'>
       <motion.div
           className=" text-center lg:text-left px-4 sm:px-16  sm:py-3 md:ml-6"
           initial={{ opacity: 0, x: -50 }}
@@ -58,7 +58,7 @@ const CreativeTalentSection = () => {
             </div>
             </div>
       
-      <div className='md:flex md:justify-between py-6'>
+      <div className='lg:flex lg:justify-between py-6'>
         <div className=" w-full ">
            <h1 className="md:w-[65%] text-4xl sm:text-5xl lg:text-6xl  mb-6 font-Arimo font-normal text-black tracking-wider">
              Scale your Teams
