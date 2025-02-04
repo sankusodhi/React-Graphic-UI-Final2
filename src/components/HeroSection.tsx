@@ -1,163 +1,34 @@
-// import { motion } from 'framer-motion';
-// import { SiAdobe } from "react-icons/si";
-
-//  function HeroSection() {
-//   return (
-
-//     <>
-//     {/* <motion.section
-//       id="hero"
-      
-//       className="bg-[#070324] text-white "
-//       initial={{ opacity: 0, y: -50 }}
-//       animate={{ opacity: 1, y: 0 }}
-//       transition={{ duration: 0.8, ease: 'easeOut' }}
-//     >
-      
-//       <div className="container   sm:px-10 flex flex-col md:flex-row sm:justify-center items-center text-center">
-//         <div className="md:w-1/2 text-center md:text-left">
-//           <motion.h1
-//             className="text-4xl font-sans md:text-7xl  mb-6 space-y-4"
-//             initial={{ opacity: 0, scale: 0.8 }}
-//             animate={{ opacity: 1, scale: 1 }}
-//             transition={{ duration: 0.6, delay: 0.2 }}
-//           >
-//            <p>Driving Sales</p> <p> and Capturing</p> Attention Through <div className="text-yellow-400">Graphic Designs</div>
-//           </motion.h1>
-//           <motion.p
-//             className="text-lg md:text-xl mb-6 sm:ml-8 text-start"
-//             initial={{ opacity: 0 }}
-//             animate={{ opacity: 1 }}
-//             transition={{ duration: 0.6, delay: 0.4 }}
-//           >
-
-//            <li> On-board the Top 1% Design Talent.</li> <li> Communicate your brand’s story.</li> <li>Impactful Marketing Collateral.</li>
-//           </motion.p>
-//           <motion.button
-//             className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-6 rounded"
-//             initial={{ scale: 0.8, opacity: 0 }}
-//             animate={{ scale: 1, opacity: 1 }}
-//             transition={{ duration: 0.6, delay: 0.6 }}
-//           >
-//             Book a Demo
-//           </motion.button>
-//         </div>
-//         <motion.div
-//           className=" mt-8 sm:w-1/2 md:mt-0 flex justify-center "
-//           initial={{ opacity: 0, x: 50 }}
-//           animate={{ opacity: 1, x: 0 }}
-//           transition={{ duration: 0.8, delay: 0.6 }}
-//         >
-//           <div className=''>
-//           <img className=' sm:mr-0' src="/pic-19.jpeg" alt="Hero Image" />
-          
-//            <div className='flex items-center gap-2  text-lg sm:ml-[600px] '>
-//             <SiAdobe /><span className='font-sans'>Adobe</span>
-//            </div>
-//            </div>
-//         </motion.div>
-
-//       </div>
-//     </motion.section> */}
-
-
-//     <motion.section className="bg-[#070324] py-10 px-5 sm:py-16 sm:px-20 pt-5">
-
-//       <div className="sm:flex  sm:justify-around sm:items-center text-white">
-
-//         <div>
-
-//             <motion.h1
-//             className="text-4xl font-raleway sm:text-6xl lg:text-7xl h-full  mb-6 space-y-4"
-//             initial={{ opacity: 0, scale: 0.8 }}
-//             animate={{ opacity: 1, scale: 1 }}
-//             transition={{ duration: 0.6, delay: 0.2 }}
-//           >
-//            <p className='mb-3'>Driving Sales</p> <p className='mb-3'> and Capturing</p><p className='mb-3'> Attention Through </p><div className="text-yellow-400">Graphic Designs</div>
-//           </motion.h1>
-//            <motion.p
-//             className="text-lg md:text-xl mb-6 sm:ml-8 sm:text-start py-3 leading-relaxed"
-//             initial={{ opacity: 0 }}
-//             animate={{ opacity: 1 }}
-//             transition={{ duration: 0.6, delay: 0.4 }}
-//           >
-
-//            <li className='mb-4'> On-board the Top 1% Design Talent.</li> 
-//            <li className='mb-4'> Communicate your brand’s story.</li>
-//             <li>Impactful Marketing Collateral.</li>
-//           </motion.p>
-//            <motion.button
-//             className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-3 px-6 rounded"
-//             initial={{ scale: 0.8, opacity: 0 }}
-//             animate={{ scale: 1, opacity: 1 }}
-//             transition={{ duration: 0.6, delay: 0.6 }}
-//           >
-//             Book a Demo
-//           </motion.button>
-//         </div>
-//         <motion.section initial={{ opacity: 0, scale: 0.8 }}
-//             animate={{ opacity: 1, scale: 1 }}
-//             transition={{ duration: 0.6, delay: 0.2 }}>
-//           <img src="/pic-19.jpeg" alt="Hero Image" />
-//         </motion.section>
-
-//       </div>
-//      <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-20 mr-22">
-//   <SiAdobe className="w-10 h-10" />
-//   <span className="text-3xl font-normal font-ubuntu">Adobe</span>
-// </div>
-  
-//     </motion.section>
-
-// </>
-
-
-//   );
-// }
-
-// export default HeroSection
-
-
-
-
-
 import { motion } from 'framer-motion';
 import { SiAdobe } from "react-icons/si";
 
- function HeroSection() {
+function HeroSection() {
   return (
-
-    <>
-    {/* <motion.section
-      id="hero"
-      
-      className="bg-[#070324] text-white "
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-    >
-      
-      <div className="container   sm:px-10 flex flex-col md:flex-row sm:justify-center items-center text-center">
-        <div className="md:w-1/2 text-center md:text-left">
+    <motion.section className="bg-[#070324] py-8 px-4 sm:py-12 sm:px-8">
+      <div className="flex flex-col-reverse sm:flex-row justify-around items-center text-white">
+        <div className="mt-8 sm:mt-16 text-center sm:text-left">
           <motion.h1
-            className="text-4xl font-sans md:text-7xl  mb-6 space-y-4"
+            className="text-4xl font-Arimo font-normal sm:text-5xl lg:text-[65px] mb-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-           <p>Driving Sales</p> <p> and Capturing</p> Attention Through <div className="text-yellow-400">Graphic Designs</div>
+            <p className="mb-2">Driving Sales</p>
+            <p className="mb-2">and Capturing</p>
+            <p className="mb-2">Attention Through</p>
+            <span className="text-yellow-400">Graphic Designs</span>
           </motion.h1>
-          <motion.p
-            className="text-lg md:text-xl mb-6 sm:ml-8 text-start"
+          <motion.ul
+            className="text-lg md:text-xl mb-6 py-3 leading-relaxed list-disc list-inside"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-
-           <li> On-board the Top 1% Design Talent.</li> <li> Communicate your brand’s story.</li> <li>Impactful Marketing Collateral.</li>
-          </motion.p>
+            <li className="mb-2">On-board the Top 1% Design Talent.</li>
+            <li className="mb-2">Communicate your brand’s story.</li>
+            <li>Impactful Marketing Collateral.</li>
+          </motion.ul>
           <motion.button
-            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-6 rounded"
+            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-7 mt-4 sm:mt-0"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
@@ -166,83 +37,24 @@ import { SiAdobe } from "react-icons/si";
           </motion.button>
         </div>
         <motion.div
-          className=" mt-8 sm:w-1/2 md:mt-0 flex justify-center "
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          className="w-full sm:w-1/2 lg:w-2/5 flex justify-center sm:justify-end"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <div className=''>
-          <img className=' sm:mr-0' src="/pic-19.jpeg" alt="Hero Image" />
-          
-           <div className='flex items-center gap-2  text-lg sm:ml-[600px] '>
-            <SiAdobe /><span className='font-sans'>Adobe</span>
-           </div>
-           </div>
+          <img
+            src="/pic-19.jpeg"
+            alt="Hero Image"
+            className="w-full h-auto max-w-sm sm:max-w-md lg:max-w-lg"
+          />
         </motion.div>
-
       </div>
-    </motion.section> */}
-
-
-    <motion.section className="bg-[#070324]  sm:py-1 sm:px-8  ">
-
-      <div className="sm:flex  sm:justify-around sm:items-center text-white">
-
-        <div className=' sm:mt-16'>
-
-            <motion.h1
-            className="text-4xl font-Arimo font-normal sm:text-5xl lg:text-[65px] h-full  mb-4 space-y-0"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <p>
-
-           <p className='mb-2'>Driving Sales</p>
-         <p className='mb-2'> and Capturing</p>
-         <p className='mb-2'> Attention Through </p>
-         <div className="text-yellow-400">Graphic Designs</div>
-            </p>
-           
-          </motion.h1>
-           <motion.p
-            className="text-lg md:text-xl mb-6 sm:ml-5 sm:text-start py-3 leading-relaxed"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-          >
-
-           <li className='mb-2'> On-board the Top 1% Design Talent.</li> 
-           <li className='mb-2'> Communicate your brand’s story.</li>
-            <li>Impactful Marketing Collateral.</li>
-          </motion.p>
-           <motion.button
-            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-7 "
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-          >
-            Book a Demo
-          </motion.button>
-        </div>
-        <motion.section initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}>
-          <img src="/pic-19.jpeg" alt="Hero Image" className='sm:w-[540px] sm:h-[540px]  sm:ml-20 sm:mt-8 sm:translate-x-[10px]' />
-        </motion.section>
-
+      <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24">
+        <SiAdobe className="w-9 h-9" />
+        <span className="text-3xl font-ubuntu">Adobe</span>
       </div>
-     <div className="text-white flex justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 ml-20 sm:translate-x-[20px]">
-  <SiAdobe className="w-9 h-9" />
-  <span className="text-3xl font-ubuntu ">Adobe</span>
-</div>
-  
     </motion.section>
-
-</>
-
-
   );
 }
 
-export default HeroSection
+export default HeroSection;

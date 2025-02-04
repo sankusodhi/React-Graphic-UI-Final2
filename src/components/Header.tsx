@@ -2,11 +2,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import {  GiHamburgerMenu } from "react-icons/gi";
 import { LuArrowUpRight } from "react-icons/lu";
-// import Accordion from '@mui/material/Accordion';
-// import AccordionSummary from '@mui/material/AccordionSummary';
-// import AccordionDetails from '@mui/material/AccordionDetails';
-// import Typography from '@mui/material/Typography';
-// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 
