@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -15,183 +14,68 @@ function Footer() {
       initial="hidden"
       animate="visible"
       variants={fadeIn}
-      className="bg-[#ffffff] font-Arimo font-normal  text-gray-800 border-t border-gray-200 sm:px-28"
+      className="bg-white font-Arimo font-normal text-gray-800 border-t border-gray-200 px-6 sm:px-12 md:px-20 lg:px-28"
     >
-      <div className="container mx-auto px-4 sm:pr-14 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
-        {/* Column 1 */}
-        <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[-19px]">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">PLATFORM</h5>
-          <ul className="gap-2 transform -translate-x-[1px] text-[15px]">
-            <li className="mb-2 hover:text-sky-600"><p>Text 1</p></li>
-            <li className="mb-2 hover:text-sky-600"><p>Text 2</p></li>
-            <li className="mb-2 hover:text-sky-600"><p>Text 3</p></li>
-            <li className="mb-2 hover:text-sky-600">Text 5</li>
-            <li>Text 6</li>
-          </ul>
-          <h5 className="text-[15px] font-semibold mt-6 mb-4 text-[#997200] transform -translate-x-[1px]">
-            YET TO BE DECIDED
-          </h5>
-          <ul className="transform -translate-x-[1px] text-[15px]">
-            <li className="mb-2 hover:text-sky-600">Text 1</li>
-            <li className="hover:text-sky-600">Text 2</li>
-          </ul>
-        </div>
+      <div className="container mx-auto py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        {/* Columns */}
+        {[
+          { title: "PLATFORM", links: ["Text 1", "Text 2", "Text 3", "Text 5", "Text 6"] },
+          { title: "DESIGN SERVICES", links: ["Content Writing", "Graphic Design", "Video Production", "Commercial Ads", "Product Design", "Packaging Design", "UI-UX Design", "Launch a Brand"] },
+          { title: "MARTECH SERVICES", links: ["Custom Web Development", "Performance Marketing", "Lead-Gen Funnel", "Technical SEO", "Market Research & Survey", "Social Media Marketing", "Campaign Planning", "WhatsApp/Email Marketing"] },
+          { title: "MEDIA SERVICES", links: ["Media Planning & Buying", "Influencer Marketing", "Event Marketing", "Customer Relations"] },
+          { title: "RESOURCES", links: ["Blogs", "Case Studies", "Our Work", "E-books", "Events", "Creators Hub", "Global Designers", "Help Center"] },
+        ].map((section, idx) => (
+          <div key={idx} className="flex flex-col"> {/* Removed `hidden sm:flex` */}
+            <h5 className="text-lg font-semibold mb-4 text-[#997200]">{section.title}</h5>
+            <ul className="text-base space-y-2">
+              {section.links.map((link, i) => (
+                <li key={i} className="hover:text-sky-600 cursor-pointer">{link}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
 
-        {/* Column 2 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">DESIGN SERVICES</h5>
-          <ul className=" transform -translate-x-[1px] text-[15px]">
-            <li className="mb-4 hover:text-sky-600">Content Writing</li>
-            <li className="mb-4 hover:text-sky-600">Graphic Design</li>
-            <li className="mb-4 hover:text-sky-600">Video Production</li>
-            <li className="mb-4 hover:text-sky-600">Commercial Ads</li>
-            <li className="mb-4 hover:text-sky-600">Product Design</li>
-            <li className="mb-4 hover:text-sky-600">Packaging Design</li>
-            <li className="mb-4 hover:text-sky-600">UI-UX Design</li>
-            <li className="hover:text-sky-600">Launch a Brand</li>
-          </ul>
-        </div>
-
-        {/* Column 3 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col sm:ml-4">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200] ">MARTECH SERVICES</h5>
-          <ul className="text-[15px]">
-            <li className="mb-4 hover:text-sky-600"><p>Custom Web Development</p></li>
-            <li className="mb-4 hover:text-sky-600 ">Performance Marketing</li>
-            <li className="mb-4 hover:text-sky-600">Lead-Gen Funnel</li>
-            <li className="mb-4 hover:text-sky-600">Technical SEO</li>
-            <li className="mb-4 hover:text-sky-600">Market Research & Survey</li>
-            <li className="mb-4 hover:text-sky-600">Social Media Marketing</li>
-            <li className="mb-4 hover:text-sky-600">Campaign Planning</li>
-            <li className="hover:text-sky-600">WhatsApp/Email Marketing</li>
-          </ul>
-        </div>
-
-        {/* Column 4 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col sm:ml-16 sm:w-[400px]">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">MEDIA SERVICES</h5>
-          <ul className="text-[15px]">
-            <li className="mb-4 hover:text-sky-600">Media Planning & Buying</li>
-            <li className="mb-4 hover:text-sky-600">Influencer Marketing</li>
-            <li className="mb-4 hover:text-sky-600">Event Marketing</li>
-            <li className="hover:text-sky-600">Customer Relations</li>
-          </ul>
-          <h5 className="text-[15px] font-semibold sm:mt-14 mb-4 text-[#997200]">TALENT NETWORK SERVICES</h5>
-          <ul className="text-[15px]">
-            <li className="mb-4 hover:text-sky-600">Get Hired</li>
-            <li className="mb-4 hover:text-sky-600">Get Talent</li>
-            <li className="hover:text-sky-600">Evaluate Creative Talent</li>
-          </ul>
-        </div>
-
-        {/* Column 5 */}
-        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-20">
-          <h5 className="text-[15px] font-semibold text-[#997200] mb-4">RESOURCES</h5>
-          <ul className="text-[15px]">
-            <li className="mb-4 hover:text-sky-600">Blogs</li>
-            <li className="mb-4 hover:text-sky-600">Case Studies</li>
-            <li className="mb-4 hover:text-sky-600">Our Work</li>
-            <li className="mb-4 hover:text-sky-600">E-books</li>
-            <li className="mb-4 hover:text-sky-600">Events</li>
-            <li className="mb-4 hover:text-sky-600">Creators Hub</li>
-            <li className="mb-4 hover:text-sky-600">Global Designers</li>
-            <li>Help Center</li>
-          </ul>
-        </div>
       </div>
 
-      <div className="sm:container flex justify-between pt-4 ml-4 sm:mx-auto px-4 sm:py-6 border-t border-[#192138c9] sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {/* Company */}
-        
-        <div className="sm:transform sm:-translate-x-[19px]">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">COMPANY</h5>
-          <ul className="text-[15px]">
-            <li className="mb-2">About Us</li>
-            <p className="pb-4">Join our team</p>
-            <li >
-              <a href="#" className="text-white hover:underline border min-w-10 border-[#1600ea] bg-[#1600ea] rounded p-2">
-                Join Team
-              </a>
-            </li>
-          </ul>
+      <div className="container mx-auto flex flex-wrap justify-between py-6 border-t border-[#192138c9] gap-6 text-center sm:text-left">
+        <div>
+          <h5 className="text-lg font-semibold mb-2 text-[#997200]">COMPANY</h5>
+          <p className="mb-2">About Us</p>
+          <a href="#" className="text-white hover:underline border border-[#1600ea] bg-[#1600ea] rounded px-4 py-2">Join Team</a>
+        </div>
+        <div className="relative -left-8 sm:-left-16 md:-left-20 lg:-left-24 xl:-left-32">
+          <h5 className="text-lg font-semibold mb-2 text-[#997200]">ADDRESS</h5>
+          <p className="hover:text-sky-800 cursor-pointer">Address</p>
         </div>
 
-        {/* Address */}
-        <div className="sm:mr-[580px] text-center sm:text-start  ml-14 sm:ml-5 " style={{ transform: 'translateX(-0.9in)' }}>
-          <h5 className="text-[15px] font-semibold mb-4  text-[#997200]">ADDRESS</h5>
-          <p className="hover:text-sky-800 cursor-pointer text-[15px]">Address</p>
-        </div>
-
-        {/* Get in Touch */}
-        <div className="sm:ml-40 text-center sm:transform sm:translate-x-[19px]">
-          <h5 className="text-[15px]  font-semibold mb-4 text-start text-[#997200]">GET IN TOUCH</h5>
-          <div className="text-start text-[15px]">
+        <div>
+          <h5 className="text-lg font-semibold mb-2 text-[#997200]">GET IN TOUCH</h5>
           <p>Please connect with us at</p>
-          <p className="mb-4">+91-XXXXXXXXXX</p>
-          <p className="">
-            or Write us at <a className="" href="mailto:EMAIL">EMAIL</a>
-          </p>
+          <p className="mb-2">+91-XXXXXXXXXX</p>
+          <p>or Write us at <a href="mailto:EMAIL" className="text-sky-600">EMAIL</a></p>
+        </div>
+        <div>
+          <h5 className="text-lg font-semibold mb-2 text-[#997200]">SOCIAL</h5>
+          <div className="flex space-x-4">
+            {[FaInstagram, FaLinkedin, FaXTwitter, FaFacebookSquare].map((Icon, i) => (
+              <Icon key={i} className="text-black text-2xl cursor-pointer hover:text-sky-600" />
+            ))}
           </div>
         </div>
-
-        {/* Social Media */}
-        <div className="sm:ml-2 sm:mr-8 ">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200] sm:transform translate-x-[200px]">SOCIAL</h5>
-          <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
-            <li>
-              <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaInstagram className="mr-2 text-black text-2xl" />
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-blue-600 hover:underline flex items-center">
-                <FaLinkedin className="mr-2 text-black text-2xl" />
-              </a>
-            </li>
-          </ul>
-          <ul className="sm:flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
-            <li>
-              <a href="#" className="text-blue-600 hover:underline  items-center">
-                <FaXTwitter className="mr-2 text-black text-2xl" />
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-blue-600 hover:underline  items-center">
-                
-                <FaFacebookSquare className="mr-2 text-black text-2xl" />
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
 
-      <div className=" mx-auto  py-4 sm:flex flex-col md:flex-row  p-4 justify-between border-t border-[#192138c9]">
-        <div className="flex gap-6 text-sm">
-        <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
-        <ul className="flex  space-x-4 text-start ">
-          <li>
-            <a href="#" className="text-[#1700ea6d] hover:underline">
-              Terms of Service
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-[#1700ea6d] hover:underline">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-[#1700ea6d] hover:underline">
-              Sitemap
-            </a>
-          </li>
-        </ul>
-</div>
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px]  sm:mb-10 mr-10 sm:mr-20">
-          A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
-        </p>
+      <div className="container mx-auto py-4 flex flex-col md:flex-row justify-between text-center text-sm border-t border-[#192138c9]">
+        <p className="text-gray-600">© 2024, Name Inc. All Rights Reserved.</p>
+        <div className="flex space-x-4">
+          {["Terms of Service", "Privacy Policy", "Sitemap"].map((text, i) => (
+            <a key={i} href="#" className="text-[#1700ea6d] hover:underline">{text}</a>
+          ))}
+        </div>
+        <p className="text-gray-600">A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.</p>
       </div>
     </motion.footer>
   );
 }
 
 export default Footer;
+
