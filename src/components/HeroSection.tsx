@@ -18,7 +18,7 @@ function HeroSection() {
             <span className="text-yellow-400">Graphic Designs</span>
           </motion.h1>
           <motion.ul
-            className="text-lg md:text-xl mb-6 py-3 leading-relaxed list-disc list-inside"
+            className="text-lg md:text-xl mb-6 py-3 leading-relaxed list-disc list-inside lg:ml-4"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
