@@ -1,4 +1,4 @@
-
+"use client";
 import { motion } from "framer-motion";
 
 function BusinessUI() {
@@ -8,31 +8,32 @@ function BusinessUI() {
         <h1 className="text-4xl font-Arimo font-normal sm:text-6xl mb-4 mt-8">
           How we are best for your business.
         </h1>
-        <div className="sm:flex justify-center gap-8 text-xl pt-12 pb-8">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 text-xl pt-12 pb-8">
           <div className="text-center">
-            <h2 className="text-4xl font-bold sm:text-6xl mt-8 ">$10M+ </h2>
+            <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">$10M+ </h2>
             <p>Revenue for Clients</p>
           </div>
-          <p style={{width:"1px", height:"130px", backgroundColor:"white"}}></p>
-          {/* <span className="text-5xl sm:text-9xl font-[4] my-4 sm:my-0">&#x2502;</span> */}
+
+          {/* Vertical Divider */}
+          <div className="hidden sm:block border-l-2 border-white h-24"></div>
+
           <div className="text-center">
-            <h2 className="text-4xl font-bold  sm:text-6xl mt-8">1500+ </h2>
+            <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">1500+ </h2>
             <p>Projects Delivered</p>
           </div>
-          <a style={{width:"1px", height:"130px", backgroundColor:"white"}}></a>
-          {/* <div className="w-[1px]  h-[100px] bg-white"></div> */}
 
-          {/* <a className="text-5xl sm:text-9xl font-[4]  my-4 sm:my-0">|</a> */}
-          <div ></div>
+          {/* Vertical Divider */}
+          <div className="hidden sm:block border-l-2 border-white h-24"></div>
 
           <div className="text-center">
-            <h2 className="text-4xl font-bold sm:text-6xl mt-8">10k+</h2>
+            <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">10k+</h2>
             <p>Expert Designers</p>
           </div>
         </div>
-      </section>
 
-      <hr className="w-[896px] mx-auto  sm:mx-60 mb-8" />
+        {/* Horizontal Line */}
+        <hr className="max-w-[996px] w-[90%] mx-auto mb-8 border-t border-white px-4 sm:px-0" />
+      </section>
 
       <section className="text-center py-12">
         <h2 className="text-4xl font-Arimo font-normal sm:text-6xl mb-24">
@@ -77,3 +78,4 @@ function BusinessUI() {
 }
 
 export default BusinessUI;
+
