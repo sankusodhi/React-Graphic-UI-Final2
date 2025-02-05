@@ -12,7 +12,7 @@ export default function BenefitSection() {
       {/* Benefit Section */}
       {/* <div className="text-center mt-10"> */}
       <div className=" sm:ml-20 mt-12">
-        <h2 className="text-xl md:text-[63px] font-Arimo font-normal sm:text-5xl ">How we will benefit you.</h2>
+        <h2 className="text-3xl md:text-[63px] font-Arimo font-normal md:text-5xl p-3 text-center sm:text-start ">How we will benefit you.</h2>
       </div>
 
       {/* Grid Section */}
@@ -20,7 +20,7 @@ export default function BenefitSection() {
         {/* Card 1 */}
         <motion.div
           whileHover={{ scale: 1.05 }}
-          className="bg-white text-black  p-4 sm:p-0 rounded-lg shadow-lg sm:flex  sm::mx-28"
+          className="bg-white text-black  p-4 sm:p-0 rounded-lg shadow-lg lg:flex  lg::mx-28"
         >
 
           <div className='sm:w-[70%]  '>
@@ -57,15 +57,15 @@ export default function BenefitSection() {
 
         {/* Card 2 */}
         <div className='flex justify-evenly mt-12 sm:mt-0 w-full gap-5 md:gap-10 p-4 sm:p-0 '>
-          <div className='sm:flex sm:justify-evenly  sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
+          <div className='lg:flex sm:justify-evenly  sm:mt-12 sm:w-full sm:gap-5 md:gap-10'>
             <motion.div
               whileHover={{ scale: 1.05 }}
               className="bg-white text-black   rounded-lg shadow-lg"
             >
 
-              <div className=' mt-1'>
+              <div className=' mt-1 p-4 lg:p-0'>
                 <h3 className="text-4xl font-bold sm:mt-9  sm:px-14 mb-2">Creatives that</h3>
-                <h3 className="text-4xl font-bold  sm:px-14 mb-2"> Drives Revenue 💰</h3>
+                <h3 className="text-4xl font-bold  sm:px-14 mb-2"> Drives Revenue 💵</h3>
                 <p className="text-xl text-justify font-Arimo font-normal sm:px-14 ">
                   Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
                 </p>
@@ -91,10 +91,10 @@ export default function BenefitSection() {
             {/* Card 3 */}
             <motion.div
               whileHover={{ scale: 1.05 }}
-              className="bg-white text-black rounded-lg shadow-lg"
+              className="bg-white text-black rounded-lg shadow-lg mt-10 lg:mt-0"
             >
-              <div className=''>
-                <h3 className="text-4xl font-bold sm:mt-10 sm:px-14 mb-2">Top-notch quality, consistently delivered with excellence 🤩</h3>
+              <div className='p-4 lg:p-0'>
+                <h3 className="text-4xl font-bold sm:mt-10 sm:px-14 mb-2">Top-notch quality, consistently delivered with excellence 😍</h3>
                 <p className="text-xl font-Arimo font-normal sm:px-14">
                   Scale your content with precisely crafted visuals that ensure consistency
                   and lasting impact, seamlessly aligning with your brand to create engaging,
