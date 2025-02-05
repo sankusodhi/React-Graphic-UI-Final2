@@ -18,7 +18,7 @@ function Footer() {
     >
       <div className="container mx-auto px-4 sm:pr-14 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
         {/* Column 1 */}
-        <div className="hidden sm:flex sm:flex-col cursor-pointer sm:ml-[-19px]">
+        <div className="hidden lg:flex lg:flex-col cursor-pointer sm:ml-[-19px]">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">PLATFORM</h5>
           <ul className="gap-2 transform -translate-x-[1px] text-[15px]">
             <li className="mb-2 hover:text-sky-600"><p>Text 1</p></li>
@@ -37,7 +37,7 @@ function Footer() {
         </div>
 
         {/* Column 2 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col">
+        <div className="cursor-pointer hidden lg:flex lg:flex-col">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">DESIGN SERVICES</h5>
           <ul className=" transform -translate-x-[1px] text-[15px]">
             <li className="mb-4 hover:text-sky-600">Content Writing</li>
@@ -52,7 +52,7 @@ function Footer() {
         </div>
 
         {/* Column 3 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col sm:ml-4">
+        <div className="cursor-pointer hidden lg:flex lg:flex-col sm:ml-4">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200] ">MARTECH SERVICES</h5>
           <ul className="text-[15px]">
             <li className="mb-4 hover:text-sky-600"><p>Custom Web Development</p></li>
@@ -67,7 +67,7 @@ function Footer() {
         </div>
 
         {/* Column 4 */}
-        <div className="cursor-pointer hidden sm:flex sm:flex-col sm:ml-16 sm:w-[400px]">
+        <div className="cursor-pointer hidden lg:flex lg:flex-col sm:ml-16 sm:w-[400px]">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">MEDIA SERVICES</h5>
           <ul className="text-[15px]">
             <li className="mb-4 hover:text-sky-600">Media Planning & Buying</li>
@@ -84,7 +84,7 @@ function Footer() {
         </div>
 
         {/* Column 5 */}
-        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden sm:flex sm:flex-col sm:mr-20">
+        <div className="cursor-pointer sm:transform sm:translate-x-[160px] hidden lg:flex sm:flex-col sm:mr-20">
           <h5 className="text-[15px] font-semibold text-[#997200] mb-4">RESOURCES</h5>
           <ul className="text-[15px]">
             <li className="mb-4 hover:text-sky-600">Blogs</li>
@@ -99,16 +99,16 @@ function Footer() {
         </div>
       </div>
 
-      <div className="sm:container flex justify-between pt-4 ml-4 sm:mx-auto px-4 sm:py-6 border-t border-[#192138c9] sm:grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className=" flex justify-between flex-col md:flex-row md:justify-between pt-4 md:px-0 sm:mx-auto px-4 sm:py-6 border-t border-[#192138c9] ">
         {/* Company */}
-        
-        <div className="sm:transform sm:-translate-x-[19px]">
+        <div className="flex justify-between md:w-[25%]">
+        <div className="">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">COMPANY</h5>
           <ul className="text-[15px]">
             <li className="mb-2">About Us</li>
             <p className="pb-4">Join our team</p>
-            <li>
-              <a href="#" className="text-white hover:underline border min-w-10 border-[#1600ea] bg-[#1600ea] rounded p-2">
+            <li className="w-full">
+              <a href="#" className="text-white w-full hover:underline border lg:min-w-10 border-[#1600ea] bg-[#1600ea] rounded lg:p-2 ">
                 Join Team
               </a>
             </li>
@@ -116,13 +116,15 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className="sm:mr-[580px] text-center sm:text-start  ml-14 sm:ml-5 " style={{ transform: 'translateX(-0.9in)' }}>
+        <div className=" " >
           <h5 className="text-[15px] font-semibold mb-4  text-[#997200]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer text-[15px]">Address</p>
         </div>
+        </div>
 
+        <div className="flex justify-between pt-4 md:w-[36%]">
         {/* Get in Touch */}
-        <div className="sm:ml-40 text-center sm:transform sm:translate-x-[19px]">
+        <div className=" text-center">
           <h5 className="text-[15px]  font-semibold mb-4 text-start text-[#997200]">GET IN TOUCH</h5>
           <div className="text-start text-[15px]">
           <p>Please connect with us at</p>
@@ -134,9 +136,9 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div className="sm:ml-2 sm:mr-8 ">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200] sm:transform translate-x-[200px]">SOCIAL</h5>
-          <ul className="flex space-x-4 text-center sm:transform translate-x-[200px] ">
+        <div className=" lg:mr-14">
+          <h5 className="text-[15px] font-semibold mb-4 text-[#997200] ">SOCIAL</h5>
+          <ul className="flex space-x-4 text-center ">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">
                 <FaInstagram className="mr-2 text-black text-2xl" />
@@ -148,24 +150,25 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="sm:flex space-x-4 mt-2 sm:ml-[100px] text-center sm:transform translate-x-[100px]">
+          <ul className="flex space-x-4 mt-2 text-center ">
             <li>
               <a href="#" className="text-blue-600 hover:underline  items-center">
-                <FaXTwitter className="mr-2 text-black text-2xl" />
+                <FaXTwitter className="md:mr-2 text-black text-2xl" />
               </a>
             </li>
             <li>
-              <a href="#" className="text-blue-600 hover:underline  items-center">
+              <a href="#" className="text-blue-600 ml-2 md:ml-0 hover:underline flex items-center">
                 
-                <FaFacebookSquare className="mr-2 text-black text-2xl" />
+                <FaFacebookSquare className="md:mr-2 text-black text-2xl" />
               </a>
             </li>
           </ul>
         </div>
+        </div>
       </div>
 
-      <div className="container mx-auto  py-4 sm:flex flex-col md:flex-row  justify-between border-t border-[#192138c9]">
-        <div className="flex gap-6 text-sm">
+      <div className="container mx-auto p-4 lg:p-0  py-4 lg:py-8 lg:flex lg:justify-between  border-t border-[#192138c9] lg:pb-10">
+        <div className="flex justify-evenly  text-sm lg:justify-between lg:w-[38%]">
         <p className="text-sm text-[#1700ea6d] ">© 2024, Name Inc. All Rights Reserved.</p>
         <ul className="flex  space-x-4 text-start ">
           <li>
@@ -184,10 +187,12 @@ function Footer() {
             </a>
           </li>
         </ul>
-</div>
-        <p className="text-sm text-gray-600 text-center transform translate-x-[60px]  sm:mb-10 mr-10 sm:mr-20">
+        </div>
+        <div className="py-4 lg:py-0">
+        <p className="text-sm text-gray-600 text-center">
           A Proud <span className="text-[#1700ea6d]">🇮🇳 Design Agency</span>.
         </p>
+        </div>
       </div>
     </motion.footer>
   );
