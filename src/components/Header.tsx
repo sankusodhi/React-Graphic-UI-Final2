@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <motion.nav
-      className="bg-[#0f0e24] border-b-2 border-[#262440] text-white px-6 py-4 lg:pl-60 flex justify-between items-center shadow-bottom-white relative z-50"
+      className="bg-[#0f0e24] border-b-2 border-[#262440] text-white px-6 py-4 lg:pl-56 lg:pr-20 flex justify-between items-center shadow-bottom-white relative z-50"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}

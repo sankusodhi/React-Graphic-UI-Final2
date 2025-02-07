@@ -141,7 +141,7 @@ const Testimonials = () => {
           <FaArrowRight className='sm:w-16 sm:h-16' />
         </button>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-3 gap-4 lg:py-8">
         {testimonials.slice(startIndex, startIndex + itemsPerPage).map((testimonial, index) => (
           <div key={index} className="p-4 border rounded-lg shadow-sm bg-[#ffffff]">
             <div className="text-blue-600 mb-2">

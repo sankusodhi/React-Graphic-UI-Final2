@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <motion.section className="bg-[#070324] py-8 px-4 sm:py-12 sm:px-8">
       <div className="flex flex-col-reverse sm:flex-row justify-around items-center text-white">
-        <div className="mt-8 sm:mt-16 text-center sm:text-left">
+        <div className="mt-8 sm:mt-16 text-center sm:text-left lg:mr-24">
           <motion.h1
             className="text-4xl font-Arimo font-normal sm:text-5xl lg:text-[65px] mb-4"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -37,7 +37,7 @@ function HeroSection() {
           </motion.button>
         </div>
         <motion.div
-          className="w-full sm:w-1/2 lg:w-2/5 flex justify-center sm:justify-end"
+          className="w-full sm:w-1/2 lg:w-2/5 flex justify-center sm:justify-end "
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -45,7 +45,7 @@ function HeroSection() {
           <img
             src="/pic-19.jpeg"
             alt="Hero Image"
-            className="w-full h-auto max-w-sm sm:max-w-md lg:max-w-lg"
+            className="w-full h-full max-w-sm sm:max-w-md lg:max-w-lg lg:mt-8"
           />
         </motion.div>
       </div>
