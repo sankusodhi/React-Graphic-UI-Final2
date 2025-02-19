@@ -116,7 +116,7 @@ function Footer() {
         </div>
 
         {/* Address */}
-        <div className=" " >
+        <div className=" sm:ml-12 translate-x-[20px]" >
           <h5 className="text-[15px] font-semibold mb-4  text-[#997200]">ADDRESS</h5>
           <p className="hover:text-sky-800 cursor-pointer text-[15px]">Address</p>
         </div>
@@ -136,8 +136,8 @@ function Footer() {
         </div>
 
         {/* Social Media */}
-        <div className=" lg:mr-14">
-          <h5 className="text-[15px] font-semibold mb-4 text-[#997200] ">SOCIAL</h5>
+        <div className=" lg:mr-14 sm:ml-12 translate-x-[20px]">
+          <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">SOCIAL</h5>
           <ul className="flex space-x-4 text-center ">
             <li>
               <a href="#" className="text-blue-600 hover:underline flex items-center">

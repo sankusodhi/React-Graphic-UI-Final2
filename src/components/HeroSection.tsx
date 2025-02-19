@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <motion.section className="bg-[#070324] py-8 px-4 sm:py-12 sm:px-8">
       <div className="flex flex-col-reverse sm:flex-row justify-around items-center text-white">
-        <div className="mt-8 sm:mt-16 text-center sm:text-left lg:mr-24">
+        <div className="mt-8 sm:mt-16 text-center sm:text-left lg:mr-24 sm:ml-0 translate-x-[18px]">
           <motion.h1
             className="text-4xl font-Arimo font-normal sm:text-5xl lg:text-[65px] mb-4"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -49,8 +49,8 @@ function HeroSection() {
           />
         </motion.div>
       </div>
-      <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24">
-        <SiAdobe className="w-9 h-9" />
+      <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 sm:ml-0 translate-x-[18px]">
+        <SiAdobe className="w-9 h-9 " />
         <span className="text-3xl font-ubuntu">Adobe</span>
       </div>
     </motion.section>
