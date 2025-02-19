@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="flex flex-col-reverse sm:flex-row justify-around items-center text-white">
         <div className="mt-8 sm:mt-16 text-center sm:text-left lg:mr-24 sm:ml-0 translate-x-[18px]">
           <motion.h1
-            className="text-4xl font-Arimo font-normal sm:text-5xl lg:text-[65px] mb-4"
+            className="text-4xl font-Arimo font-normal  sm:text-5xl lg:text-[65px] mb-4"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -15,7 +15,7 @@ function HeroSection() {
             <p className="mb-2">Driving Sales</p>
             <p className="mb-2">and Capturing</p>
             <p className="mb-2">Attention Through</p>
-            <span className="text-yellow-400">Graphic Designs</span>
+            <span className="text-yellow-400 font-raleway font-medium">Graphic Designs</span>
           </motion.h1>
           <motion.ul
             className="text-lg md:text-xl mb-6 py-3 leading-relaxed list-disc list-inside lg:ml-4"

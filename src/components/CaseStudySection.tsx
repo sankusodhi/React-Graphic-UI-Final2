@@ -69,14 +69,14 @@ const CaseStudySection = () => {
 
         {/* Main Content */}
        
-       <motion.div className="md:px-20">
-        <div className="lg:flex lg:justify-between">
+       <motion.div className="md:px-20 ">
+        <div className="lg:flex lg:justify-between ">
         <div>
-             <div className="flex gap-2 items-center mb-6">
+             <div className="flex gap-2 items-center mb-6 ">
               <img className="h-9 w-9" src="/pic-29.png" />
               <span className="text-[13px]">FEATURED CASE STUDY</span>
             </div>
-            <h3 className="text-xl  sm:text-3xl lg:text-[48px] font-Arimo font-normal leading-8 mb-8">
+            <h3 className="text-xl  sm:text-3xl lg:text-[48px] font-Helvetica  font-normal  leading-8 mb-8">
               "Reimagining a Legacy:
               <p className="lg:mt-5"> Redefining Top's India</p>
               <p className="lg:mt-5">
@@ -119,7 +119,7 @@ const CaseStudySection = () => {
             <img
               src="/pic-10.png"
               alt="Tops Case Study"
-              className="size-60 w-full h-full  sm:w-[490px] md:w-[529px]"
+              className="size-60 w-full h-full  md:w-[490px] lg:w-[529px]"
             />
           </motion.div>
         </div>

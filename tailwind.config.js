@@ -11,6 +11,8 @@ export default {
         Inter: ["Inter", "sans-serif"],
         Arimo: ["Arimo", "sans-serif"],
         Quicksand: ["Quicksand","Arimo", "sans-serif"],
+        Helvetica:['Helvetica Neue'],
+
       },
     },
   },

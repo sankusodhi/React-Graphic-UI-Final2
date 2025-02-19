@@ -123,12 +123,12 @@ export default function TakeAdvantageSection() {
     <motion.section
       id="take-advantage"
      
-      className="bg-[#ffffff] sm:py-16 pt-8 pb-8 sm:px-20"
+      className="bg-[#ffffff] sm:py-16 pt-8 pb-8 w-full sm:px-20"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="container mx-auto">
+      <div className=" w-full">
         <motion.h2
          
           className="text-5xl md:text-[66px] ml-8  font-Arimo font-normal  text-black pb-12"
@@ -138,16 +138,16 @@ export default function TakeAdvantageSection() {
         >
           Take Advantage
         </motion.h2>
-        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 px-4 sm:h-[100vh] overflow-y-scroll sm:mr-4">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  gap-6 px-4 w-full sm:mr-4">
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-4 sm:ml-4 rounded-lg flex flex-col border-[1px] border-[#747474c9]"
+              className="bg-white p-4 lg:mx-4 xl:min-h-40  rounded-lg flex flex-col border-[1px]  border-[#747474c9]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}
             >
-              <div className="flex items-center gap-1">
+              <div className="flex items-center  gap-1">
                 <img
                   src={item.icon}
                   alt={item.title}

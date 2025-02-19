@@ -151,7 +151,7 @@ const Testimonials = () => {
             <p className="text-gray-600 mb-4">{testimonial.text}</p>
             <div className=" items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-[#ffffff]"></div>
-              <div className='flex'>
+              <div className='flex gap-2'>
                 <div><p className='flex  sm:p-3 md:p-6 lg:p-6 bg-gray-300 rounded-full  text-gray-300'></p></div>
               <div>
                 <p className="font-bold">{testimonial.name}</p>

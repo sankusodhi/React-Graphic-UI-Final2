@@ -22,7 +22,7 @@ const CreativeTalentSection = () => {
     <>
     <section className='p-4'>
       <motion.div
-          className=" text-center lg:text-left px-4 sm:px-16  sm:py-3 md:ml-6"
+          className=" text-center lg:text-left px-4 sm:px-[70px] sm:py-3 md:ml-6 "
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}>
@@ -59,17 +59,20 @@ const CreativeTalentSection = () => {
             </div>
       
       <div className='lg:flex lg:justify-between py-6'>
-        <div className=" w-full ">
-           <h1 className="md:w-[65%] text-4xl sm:text-5xl lg:text-6xl  mb-6 font-Arimo font-normal text-black tracking-wider">
+        <div className=" lg:w-[60%]  ">
+           <h1 className=" text-4xl sm:text-5xl lg:text-6xl  mb-6 font-Arimo font-normal text-black tracking-wider">
              Scale your Teams
              <p>
              Faster by Hiring {" "}
              </p> 
              the
-             <span className="text-[#1600ea]">Top 1%</span> Skilled Creative
+             <span className="text-[#1600ea]">Top 1%</span> Skilled
+             <p>
+              Creative
              Talent.
+             </p>
            </h1>
-           <p className="text-[#000000] md:w-[65%] font-Arimo font-normal text-xl text-justify mb-6  pt-6">
+           <p className="text-[#000000] lg:w-[65%] font-Arimo font-normal text-xl text-justify mb-6  pt-6">
              Join an exclusive talent pool and connect with leading brands
              searching for top creative professionals. Showcase your expertise,
              land your dream role, and redefine your career with endless
@@ -85,7 +88,7 @@ const CreativeTalentSection = () => {
            </button>
            </div>
        <motion.div
-          className=" mt-12 lg:mt-0 px-6"
+          className=" mt-12 lg:mt-0 lg:w-[40%] px-6"
            initial={{ opacity: 0, x: 50 }}
            animate={{ opacity: 1, x: 0 }}
            transition={{ duration: 0.8 }}
