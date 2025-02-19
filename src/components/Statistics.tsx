@@ -24,8 +24,8 @@ export default function BenefitSection() {
         >
 
           <div className='sm:w-[70%]  '>
-            <h3 className="text-4xl font-bold sm:mt-16 sm:px-14  ">Hire Us or On-board</h3>
-            <h3 className="text-4xl font-bold  sm:px-14  sm:mb-8">Top 1% Creative Talent ✨</h3>
+            <h3 className="text-4xl font-normal font-Helvetica sm:mt-16  sm:px-14  ">Hire Us or On-board</h3>
+            <h3 className="text-4xl font-normal font-Helvetica  sm:px-14  sm:mb-8">Top 1% Creative Talent ✨</h3>
             <p className="text-xl font-Arimo font-normal sm:px-14">
               Collaborate with our expert team for tailored, high-quality
               designs aligned with your brand’s goals, or onboard top
@@ -64,8 +64,8 @@ export default function BenefitSection() {
             >
 
               <div className=' mt-1 p-4 lg:p-0'>
-                <h3 className="text-4xl font-bold sm:mt-9  sm:px-14 mb-2">Creatives that</h3>
-                <h3 className="text-4xl font-bold  sm:px-14 mb-2"> Drives Revenue 💵</h3>
+                <h3 className="text-4xl font-normal font-Helvetica sm:mt-9  sm:px-14 mb-2">Creatives that</h3>
+                <h3 className="text-4xl font-normal font-Helvetica sm:px-14 mb-2"> Drives Revenue 💵</h3>
                 <p className="text-xl text-justify font-Arimo font-normal sm:px-14 ">
                   Strategically crafted concepts that captivate engagement and boost conversions to maximize profitability.
                 </p>
@@ -94,7 +94,7 @@ export default function BenefitSection() {
               className="bg-white text-black rounded-lg shadow-lg mt-10 lg:mt-0"
             >
               <div className='p-4 lg:p-0'>
-                <h3 className="text-4xl font-bold sm:mt-10 sm:px-14 mb-2">Top-notch quality, consistently delivered with excellence 😍</h3>
+                <h3 className="text-4xl font-normal font-Helvetica sm:mt-10 sm:px-14 mb-2">Top-notch quality, consistently delivered with excellence 😍</h3>
                 <p className="text-xl font-Arimo font-normal sm:px-14">
                   Scale your content with precisely crafted visuals that ensure consistency
                   and lasting impact, seamlessly aligning with your brand to create engaging,

@@ -5,13 +5,13 @@ function BusinessUI() {
   return (
     <div className="bg-[#120d23] text-white font-sans sm:px-16">
       <section className="text-center pt-20 py-12">
-        <h1 className="text-4xl font-Arimo font-normal sm:text-6xl mb-4 mt-8">
+        <h1 className="text-4xl font-normal font-Helvetica sm:text-6xl mb-4 mt-8">
           How we are best for your business.
         </h1>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-12 text-xl pt-12 pb-8">
           <div className="text-center">
             <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">$10M+ </h2>
-            <p>Revenue for Clients</p>
+            <p className="font-normal font-Helvetica">Revenue for Clients</p>
           </div>
 
           {/* Vertical Divider */}
@@ -19,7 +19,7 @@ function BusinessUI() {
 
           <div className="text-center">
             <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">1500+ </h2>
-            <p>Projects Delivered</p>
+            <p className="font-normal font-Helvetica">Projects Delivered</p>
           </div>
 
           {/* Vertical Divider */}
@@ -27,7 +27,7 @@ function BusinessUI() {
 
           <div className="text-center">
             <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">10k+</h2>
-            <p>Expert Designers</p>
+            <p className="font-normal font-Helvetica">Expert Designers</p>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ function BusinessUI() {
       </section>
 
       <section className="text-center py-12">
-        <h2 className="text-4xl font-Arimo font-normal sm:text-6xl mb-24">
+        <h2 className="text-4xl font-normal font-Helvetica sm:text-6xl mb-24">
           Explore Perfect needs with us.
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-12">

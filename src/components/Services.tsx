@@ -131,7 +131,7 @@ export default function TakeAdvantageSection() {
       <div className=" w-full">
         <motion.h2
          
-          className="text-5xl md:text-[66px] ml-8  font-Arimo font-normal  text-black pb-12"
+          className="text-5xl md:text-[66px] ml-8  font-Helvetica  font-normal text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -153,7 +153,7 @@ export default function TakeAdvantageSection() {
                   alt={item.title}
                   className="w-10 h-10 mb-4"
                 />
-                <h3 className="text-2xl text-black  font-semibold font-sans  text-center">{item.title}</h3>
+                <h3 className="text-2xl text-black   font-Helvetica  text-center">{item.title}</h3>
               </div>
               <p className="text-xl text-gray-600 font-Arimo font-normal px-10 mr-2 text-justify">{item.description}</p>
             </motion.div>

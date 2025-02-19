@@ -24,7 +24,7 @@ export default function FAQ() {
 
   return (
     <div className="w-full mx-auto pt-16 px-4 sm:px-6 pb-16 md:px-28 bg-[#ffffff]">
-      <h1 className="text-6xl text-start mb-6">
+      <h1 className="text-6xl text-start font-normal font-Helvetica mb-6">
         Resolve your Doubts here.
       </h1>
       <ul className="space-y-8 sm:pt-14 sm:text-5xl">
@@ -35,7 +35,7 @@ export default function FAQ() {
               onClick={() => toggleQuestion(id)}
             >
               <span className="text-lg mb-8 font-semibold break-words sm:text-3xl">
-                {id}. <span className="sm:ml-12 translate-x-[20px]">{question}</span>
+                {id}. <span className="sm:ml-12 translate-x-[20px] font-normal font-Helvetica">{question}</span>
               </span>
               <button
                 className={`text-[#1600ea] text-xl text-center border-[#1600ea] border sm:text-3xl lg:text-3xl sm:mb-10 rounded-full w-14 h-14 ${openQuestion === id ? 'bg-[#1600ea] text-white' : 'bg-white'} t`}

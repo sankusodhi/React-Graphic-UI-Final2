@@ -51,7 +51,7 @@ const ExpertToolsSection = () => {
         ].map((tool, index) => (
           <motion.div
             key={index}
-            className="w-20 h-16 text-black flex items-center justify-center  gap-6"
+            className="w-20 h-16 text-black flex flex-wrap items-center justify-center  gap-6"
             variants={itemVariants}
             whileHover="hover"
           >

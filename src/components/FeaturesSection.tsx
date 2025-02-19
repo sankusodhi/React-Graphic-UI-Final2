@@ -12,7 +12,7 @@ function FeaturesSection() {
         icon: "/pic-20.png", // Replace with actual icon paths if needed
       },
       {
-        title: "Showcase Your Brand’s Personality 🌟",
+        title: "Showcase Your Brand's Personality 🌟",
         description: "Whether it’s minimalist elegance or bold statements, we tailor designs that resonate with your audience.",
         icon: "/pic-21.png", // Replace with actual icon paths if needed
       },
@@ -34,7 +34,7 @@ function FeaturesSection() {
       >
         <div className="container mx-auto  px-4">
           <motion.h2
-            className="text-4xl md:text-[63px]  font-Arimo font-normal space-y-4 text-center sm:mt-16  mb-12"
+            className="text-4xl md:text-[63px]  font-Helvetica  font-normal space-y-4 text-center sm:mt-16  mb-12"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
@@ -52,8 +52,8 @@ function FeaturesSection() {
                 transition={{ duration: 0.6, delay: 0.3 + index * 0.2 }}
               >
                 <img src={feature.icon} alt={feature.title} className="w-16 h-16 mb-4 text-justify" />
-                <h3 className="text-3xl  mb-2 ">{feature.title}</h3>
-                <p className="text-[20px] text-gray-300 text-justify ">{feature.description}</p>
+                <h3 className="text-3xl font-Helvetica mb-2 ">{feature.title}</h3>
+                <p className="text-[19px] font-Helvetica text-gray-300 text-justify ">{feature.description}</p>
               </motion.div>
             ))}
           </div>

@@ -15,7 +15,7 @@ function HeroSection() {
             <p className="mb-2">Driving Sales</p>
             <p className="mb-2">and Capturing</p>
             <p className="mb-2">Attention Through</p>
-            <span className="text-yellow-400 font-raleway font-medium">Graphic Designs</span>
+            <span className="text-yellow-400 font-Helvetica">Graphic Designs</span>
           </motion.h1>
           <motion.ul
             className="text-lg md:text-xl mb-6 py-3 leading-relaxed list-disc list-inside lg:ml-4"
