@@ -92,7 +92,9 @@ const CaseStudySection = () => {
                 <p className="lg:mt-5">
                   for the Modern Consumer"
                 </p>
-                <hr className=" green-400 mt-10" />
+                {/* <hr className="border-t-2 border-slate-700 mt-10" /> */}
+                <hr className="border-t-2 mt-10" style={{ borderColor: '#2D3338' }} />
+
               </h3>
 
               <div className="flex  w-full sm:flex-row items-center mt-10 gap-6 sm:gap-12 justify-center md:justify-start ">
