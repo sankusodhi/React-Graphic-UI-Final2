@@ -12,9 +12,9 @@ function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <p className="mb-2">Driving Sales</p>
-            <p className="mb-2">and Capturing</p>
-            <p className="mb-2">Attention Through</p>
+            <p className="mb-2 font-Helvetica">Driving Sales</p>
+            <p className="mb-2 font-Helvetica">and Capturing</p>
+            <p className="mb-2 font-Helvetica">Attention Through</p>
             <span className="text-yellow-400 font-Helvetica">Graphic Designs</span>
           </motion.h1>
           <motion.ul
