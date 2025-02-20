@@ -142,18 +142,18 @@ export default function TakeAdvantageSection() {
           {items.slice(0, visibleCount).map((item, index) => (
             <motion.div
               key={index}
-              className="bg-white p-4 lg:mx-4 xl:min-h-40  rounded-lg flex flex-col border-[1px]  border-[#747474c9]"
+              className="bg-white p-4 lg:mx-4 xl:min-h-40  rounded-lg flex flex-col border-[1px]  border-[#74747434]"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.4, delay: 0.1 + index * 0.0 }}
             >
-              <div className="flex items-center  gap-1">
+              <div className="flex gap-1">
                 <img
                   src={item.icon}
                   alt={item.title}
                   className="w-10 h-10 mb-4"
                 />
-                <h3 className="text-2xl text-black   font-Helvetica  text-center">{item.title}</h3>
+                <h3 className="text-2xl text-black lg:pt-1  font-Helvetica  text-center">{item.title}</h3>
               </div>
               <p className="text-xl text-gray-600 font-Arimo font-normal px-10 mr-2 text-justify">{item.description}</p>
             </motion.div>

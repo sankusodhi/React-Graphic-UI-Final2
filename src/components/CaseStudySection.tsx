@@ -72,11 +72,11 @@ const CaseStudySection = () => {
        <motion.div className="md:px-20 ">
         <div className="lg:flex lg:justify-between ">
         <div>
-             <div className="flex gap-2 items-center mb-6 ">
+             <div className="flex gap-2 items-center mb-8 ">
               <img className="h-9 w-9" src="/pic-29.png" />
               <span className="text-[13px]">FEATURED CASE STUDY</span>
             </div>
-            <h3 className="text-xl  sm:text-3xl lg:text-[48px] font-Helvetica  font-normal  leading-8 mb-8">
+            <h3 className="text-xl  sm:text-3xl lg:text-[48px] font-Helvetica  font-normal  leading-8 mb-3">
               "Reimagining a Legacy:
               <p className="lg:mt-5"> Redefining Top's India</p>
               <p className="lg:mt-5">
@@ -85,10 +85,10 @@ const CaseStudySection = () => {
               <p className="lg:mt-5">
                 for the Modern Consumer"
               </p>
-              <hr className=" green-400 mt-16" />
+              <hr className=" green-400 mt-10" />
             </h3>
             
-            <div className="flex  w-full sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start lg:pt-3">
+            <div className="flex  w-full sm:flex-row items-center gap-6 sm:gap-12 justify-center md:justify-start ">
               <div>
                 <p className="text-3xl sm:text-8xl text-green-400">250%</p>
                 <p className="text-xs mt-4 sm:text-xl text-[#c3ccd3] font-Inter">Increase in Click Rate</p>
@@ -100,7 +100,7 @@ const CaseStudySection = () => {
             </div>
             <a
               href="/case-studies/tops"
-              className="inline-flex items-center text-2xl  text-white  mt-4 hover:underline lg:pt-12"
+              className="inline-flex items-center text-2xl font-light  text-white  mt-12 hover:underline lg:pt-12"
             >
               Read Case Study <span className="ml-2  rounded-full py-1 px-1 text-black  bg-white">
               <LuArrowRight className=" text-xl sm:text-2xl align-middle" />
