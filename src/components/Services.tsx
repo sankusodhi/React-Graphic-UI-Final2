@@ -131,7 +131,7 @@ export default function TakeAdvantageSection() {
       <div className=" w-full">
         <motion.h2
          
-          className="text-5xl md:text-[66px] ml-8  font-Helvetica  font-normal text-black pb-12"
+          className="text-5xl md:text-[66px] ml-8  font-arimo  font-normal text-black pb-12"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}

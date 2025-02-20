@@ -35,7 +35,9 @@ const ExpertToolsSection = () => {
       </motion.h2>
       <motion.div
         // className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 ml-10 justify-center"
-        className="flex gap-4 sm:gap-8 pt-10  m-5 justify-center"
+        className="flex flex-wrap justify-center mt-10 items-center sm:gap-7 mb-8 sm:mb-16 cursor-pointer "
+        // className="flex gap-4 sm:gap-8 pt-10  m-5 justify-center"
+        // <div className="flex flex-wrap justify-center mt-10 items-center sm:gap-20 gap-12 mb-8 sm:mb-16 cursor-pointer sm:mr-16"></div>
         variants={containerVariants}
       >
         {[
