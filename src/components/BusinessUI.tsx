@@ -15,7 +15,8 @@ function BusinessUI() {
           </div>
 
           {/* Vertical Divider */}
-          <div className="hidden sm:block border-l-2 border-white h-24"></div>
+          {/* <div className="hidden sm:block border-l-2 border-white h-24"></div> */}
+          <div className="hidden sm:block border-l-2 h-24" style={{ borderColor: '#6c6a74' }}></div>
 
           <div className="text-center">
             <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">1500+ </h2>
@@ -23,7 +24,8 @@ function BusinessUI() {
           </div>
 
           {/* Vertical Divider */}
-          <div className="hidden sm:block border-l-2 border-white h-24"></div>
+          {/* <div className="hidden sm:block border-l-2 border-white h-24"></div> */}
+          <div className="hidden sm:block border-l-2 h-24" style={{ borderColor: '#6c6a74' }}></div>
 
           <div className="text-center">
             <h2 className="text-4xl font-bold sm:text-6xl mt-4 sm:mt-0">10k+</h2>
@@ -32,7 +34,12 @@ function BusinessUI() {
         </div>
 
         {/* Horizontal Line */}
-        <hr className="max-w-[996px] w-[90%] mx-auto mb-8 border-t border-white px-4 sm:px-0" />
+        {/* <hr className="max-w-[996px] w-[90%] mx-auto mb-8 border-t border-white px-4 sm:px-0" /> */}
+        <hr
+          className="max-w-[996px] w-[90%] mx-auto mb-8 border-t px-4 sm:px-0"
+          style={{ borderColor: '#CECDD2' }}
+        />
+
       </section>
 
       <section className="text-center py-12">
