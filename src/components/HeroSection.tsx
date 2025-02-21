@@ -49,7 +49,7 @@ function HeroSection() {
           />
         </motion.div>
       </div>
-      <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 sm:ml-0 translate-x-[18px]">
+      <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 sm:ml-0 translate-x-[20px]">
         <SiAdobe className="w-9 h-9 " />
         <span className="text-3xl font-ubuntu">Adobe</span>
       </div>
