@@ -24,7 +24,9 @@ export default function FAQ() {
 
   return (
     <div className="w-full mx-auto pt-16 px-4 sm:px-6 pb-16 md:px-28 bg-[#ffffff]">
-      <h1 className="text-6xl text-start font-normal font-Helvetica mb-6">
+      <h1 className="text-6xl text-start  font-Helvetica  mb-6" style={{color:"#2D3032"}}>
+      {/* <h1 className="text-6xl text-start mb-6 font-medium" style={{ fontFamily: "Yantramanav, Helvetica, sans-serif" }}> */}
+ 
         Resolve your Doubts here.
       </h1>
       <ul className="space-y-8 sm:pt-14 sm:text-5xl">

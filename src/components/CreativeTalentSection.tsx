@@ -72,13 +72,14 @@ const CreativeTalentSection = () => {
              Talent.
              </p>
            </h1>
-           <p className="text-[#000000] lg:w-[65%] font-normal font-Helvetica  text-xl text-justify mb-6  pt-6">
+           {/* <p className="text-[#000000] lg:w-[65%]  font-Yantramanav  text-xl text-justify mb-6  pt-6"> */}
+           <p className="text-[#000000] lg:w-[65%]  font-Yantramanav  text-xl text-left  mb-6  pt-6">
              Join an exclusive talent pool and connect with leading brands
              searching for top creative professionals. Showcase your expertise,
              land your dream role, and redefine your career with endless
              opportunities.
            </p>
-           <ul className="list-disc pl-8 text-xl font-normal font-Helvetica md:w-[65%] text-[#000000] text-justify mb-6">
+           <ul className="list-disc pl-8 text-lg  font-Helvetica md:w-[65%]  text-[#000000] text-left mb-6">
              <li>Get Placed with Top Brands Like Google and Amazon.</li>
              <li>Showcase Your Creative Talent to the World.</li>
              <li>Get Hired for Projects That Elevate Your Career.</li>
