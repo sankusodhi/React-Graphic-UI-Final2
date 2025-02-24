@@ -25,7 +25,7 @@ export default function Navbar() {
       <ul className="hidden md:flex space-x-8">
         {navItems.map((item) => (
           <li key={item.name} className="group relative sm:ml-10">
-            <span className="cursor-pointer flex items-center font-raleway text-md gap-2">
+            <span className="cursor-pointer flex text-white items-center font-raleway text-md gap-2">
               {item.name}
               <span className="cursor-pointer">
                 {/* SVG Arrow */}
@@ -46,12 +46,12 @@ export default function Navbar() {
               </span>
             </span>
             {/* Dropdown Menu */}
-            <div className="absolute left-0 hidden group-hover:block bg-[#1e1c3d] py-2 mt-2 rounded shadow-lg">
+            <div className="absolute left-0 hidden group-hover:block bg-[#1e1c3d] py-2 mt-2 rounded shadow-lg text-white">
               {item.subItems.map((subItem) => (
                 <a
                   key={subItem}
                   href="#"
-                  className="block px-4 py-2 hover:bg-[#2e2c4d] transition"
+                  className="block px-4 py-2 text-white hover:bg-[#2e2c4d] transition"
                 >
                   {subItem}
                 </a>
