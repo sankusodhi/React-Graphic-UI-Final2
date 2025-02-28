@@ -49,7 +49,7 @@ export default function ZeptoSlider() {
 
   return (
 
-    <div className="sm:mt-20 sm:mx-52 relative pt-8">
+    <div className="sm:pt-20 sm:px-52 relative pt-8 bg-[#1700EB] ">
       <Slider {...settings}>
       {testimonials.map((testimonial, index) => (
         <div className="sm:flex  sm:items-center sm:justify-center mb-3 sm:h-80   ">
@@ -61,11 +61,11 @@ export default function ZeptoSlider() {
       >
         {/* Left Section */}
         <div className="flex flex-col items-center  md:items-start w-full ">
-          <img className ="rounded-lg sm:pr-10 w-[200px]" src={testimonial.image} />
+          <img className ="rounded-2xl sm:pr-10 w-[200px]" src={testimonial.image} />
 
           <div className="mt-4 text-center md:text-left ">
-            <p className=" text-black text-lg font-Arimo font-medium">{testimonial.name}</p>
-            <p className="text-[19px] text-gray-500 font-Arimo font-normal">{testimonial.role}</p>
+            <p className=" text-[#FFD97C] text-lg font-Arimo font-medium">{testimonial.name}</p>
+            <p className="text-[19px] text-white font-Arimo font-normal">{testimonial.role}</p>
           </div>
         </div>
 

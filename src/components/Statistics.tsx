@@ -7,12 +7,12 @@ import { LuArrowUpRight } from "react-icons/lu";
 export default function BenefitSection() {
   return (
 
-    <div className="bg-[#1600ea] text-white sm:py-4  sm:px-8 sm:pt-16">
+    <div className="bg-[#F9F5EC] text-white sm:py-4  sm:px-8 sm:pt-16">
 
       {/* Benefit Section */}
       {/* <div className="text-center mt-10"> */}
       <div className=" sm:ml-20 mt-12">
-        <h2 className="text-3xl md:text-[63px] font-Arimo font-normal md:text-5xl p-3 text-center sm:text-start ">How we will benefit you.</h2>
+        <h2 className="text-3xl md:text-[63px] font-Helvetica text-black font-normal md:text-5xl p-3 text-center sm:text-start ">Designera will benefit you.</h2>
       </div>
 
       {/* Grid Section */}
