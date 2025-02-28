@@ -7,7 +7,7 @@ const Logo_slider = () => {
 const settings = {
   dots: false,
   infinite: true,
-  slidesToShow: 6, // Default for large screens
+  slidesToShow: 9, // Default for large screens
   slidesToScroll: 1,
   autoplay: true,
   speed: 2000,
@@ -56,7 +56,7 @@ const settings = {
           </div>
           <div className="size-16">
             <img
-              className="h-full w-auto rounded-lg"
+              className="h-full w-[120px] rounded-lg"
               src="/pic-14.png"
               alt=""
               srcset=""
@@ -88,7 +88,7 @@ const settings = {
           </div>
           <div className="size-16 flex justify-center items-center">
             <img
-              className="h-full w-auto"
+              className="h-full  w-[120px]"
               src="/assets/park+.png"
               alt=""
               srcset=""
@@ -96,7 +96,7 @@ const settings = {
           </div>
           <div className="size-16 flex justify-center items-center">
             <img
-              className="h-full w-auto"
+              className="h-full  w-[120px]"
               src="/assets/adani_logo.png"
               alt=""
               srcset=""
@@ -104,7 +104,7 @@ const settings = {
           </div>
           <div className="size-16 flex justify-center items-center">
             <img
-              className="h-full w-auto rounded-lg"
+              className="h-full  w-[120px] rounded-lg"
               src="/assets/Screenshot 2025-01-04 145058.png"
               alt=""
               srcset=""
