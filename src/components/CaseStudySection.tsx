@@ -127,7 +127,7 @@ const CaseStudySection = () => {
                 className=" "
               >
                 <img
-                  src="/pic-10.png"
+                  src="/Image11.svg"
                   alt="Tops Case Study"
                   className="size-60 w-full h-full  md:w-[490px] lg:w-[529px]"
                 />

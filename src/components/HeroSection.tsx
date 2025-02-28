@@ -31,7 +31,7 @@ function HeroSection() {
             <li>Impactful Marketing Collateral.</li>
           </motion.ul>
           <motion.button
-            className="bg-[#1600ea] hover:bg-blue-500 text-white font-bold py-2 px-7 mt-4 sm:mt-0"
+            className="bg-[#1600ea] hover:bg-blue-500 rounded-sm text-white font-bold py-2 px-7 mt-4 sm:mt-0"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}

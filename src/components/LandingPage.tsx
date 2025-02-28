@@ -22,14 +22,14 @@ export default function LandingPage() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-yellow-500 text-black px-5 py-2.5 text-base font-semibold  w-full lg:w-[180px]"
+            className="bg-yellow-500 text-black px-5 py-2.5 text-base rounded-sm font-semibold  w-full lg:w-[180px]"
           >
             Book a Demo
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="hover:bg-white border-white text-white hover:text-black px-7 py-2.5 text-base border-2 w-full lg:w-[180px] font-semibold"
+            className="hover:bg-white border-white text-white rounded-sm hover:text-black px-7 py-2.5 text-base border-2 w-full lg:w-[180px] font-semibold"
           >
             Sign up
           </motion.button>

@@ -70,7 +70,7 @@ export default function Navbar() {
       <div className="flex items-center space-x-4 w-full justify-between md:w-auto md:space-x-4">
         <a
           href="#"
-          className="hidden md:inline-block border border-white px-4 py-1 hover:bg-white hover:text-[#0f0e24] transition"
+          className="hidden md:inline-block border border-white px-4 py-1 rounded-sm hover:bg-white hover:text-[#0f0e24] transition"
         >
           <div className="flex items-center gap-2">
             <p>Find Work</p>
@@ -83,7 +83,7 @@ export default function Navbar() {
         <div className="flex w-full justify-between md:w-auto md:justify-normal">
           <a
             href="#"
-            className="bg-[#1600ea] px-6 py-2 hover:bg-blue-500 transition md:ml-4"
+            className="bg-[#1600ea] px-6 py-2 hover:bg-blue-500 rounded-sm transition md:ml-4"
           >
             Get Started
           </a>
