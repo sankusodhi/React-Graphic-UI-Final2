@@ -33,7 +33,7 @@ function App() {
       <Statistics />
       <ZeptoCard />
       <CaseStudySection />
-      <SocialMediaExpertise />
+      <SocialMediaExpertise  />
       <SocialMediaUI/>
       <ZeptoCard />
       <Testimonials />
