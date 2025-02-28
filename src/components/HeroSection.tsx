@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
-import { SiAdobe } from "react-icons/si";
+// import { SiAdobe } from "react-icons/si";
+
+import Logo_slider from "./Logo_slider";
 
 function HeroSection() {
   return (
@@ -49,10 +51,13 @@ function HeroSection() {
           />
         </motion.div>
       </div>
-      <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 sm:ml-0 translate-x-[20px]">
+      {/* <div className="text-white flex justify-center sm:justify-end items-center space-x-4 text-4xl mt-10 sm:mt-10 md:mt-24 sm:ml-0 translate-x-[20px]">
         <SiAdobe className="w-9 h-9 " />
         <span className="text-3xl font-ubuntu">Adobe</span>
-      </div>
+      </div> */}
+
+<div className='mt-16 md:mx-20'>  <Logo_slider  /></div>
+     
     </motion.section>
   );
 }
