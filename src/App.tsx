@@ -13,7 +13,6 @@ import FAQ from "../src/components/FAQ"
 import LandingPage from "./components/LandingPage"
 import Footer from "./components/Footer"
 import Nav_01 from "./components/Nav_01"
-import Shopify from "./components/Shopify.jsx"
 
 function App() {
 
@@ -28,10 +27,13 @@ function App() {
       <Services />
       <ExpertToolsSection />
       <Statistics />
-      <Shopify />
       <ZeptoCard />
       <CaseStudySection />
+      <SocialMediaExpertise />
+      <SocialMediaUI/>
+      <ZeptoCard />
       <Testimonials />
+      <StatsSection/>
       <CreativeTalentSection />
       <BusinessUI />
       <FAQ />
