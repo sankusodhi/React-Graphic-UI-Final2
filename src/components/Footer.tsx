@@ -121,7 +121,7 @@ function Footer() {
           <p>Please connect with us at</p>
           <p className="mb-4">+91-7974100169</p>
           <p className="">
-            or Write us at <a className="" href="mailto:EMAIL">designera@gmail.com</a>
+            or Write us at <a className="text-[14px] font-Helvetica font-normal text-[#1700EB]" href="mailto:EMAIL">designera@gmail.com</a>
           </p>
           </div>
         </div>
