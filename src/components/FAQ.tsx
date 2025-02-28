@@ -5,11 +5,11 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const questions = [
-  { id: 1, question: 'Question', answer: 'Answer' },
-  { id: 2, question: 'Question', answer: 'Answer' },
-  { id: 3, question: 'Question', answer: 'Answer' },
-  { id: 4, question: 'Question', answer: 'Answer' },
-  { id: 5, question: 'Question', answer: 'Answer' },
+  { id: 1, question: 'What services does Designera offer in graphic designing?', answer: 'Answer' },
+  { id: 2, question: 'Can companies collaborate with Designera to complete their graphic design projects?', answer: 'Answer' },
+  { id: 3, question: 'How does Designera ensure the quality of its graphic design work?', answer: 'Answer' },
+  { id: 4, question: 'Can Designera help us vet creative talent for in-house hiring?', answer: 'Answer' },
+  { id: 5, question: 'What makes Designera’s graphic design services stand out?', answer: 'Answer' },
   { id: 6, question: 'Closed Question Example', answer: '' },
 ];
 
@@ -24,7 +24,7 @@ export default function FAQ() {
 
   return (
     <div className="w-full mx-auto pt-16 px-4 sm:px-6 pb-16 md:px-28 bg-[#ffffff]">
-      <h1 className="text-6xl text-start  font-Helvetica  mb-6" style={{color:"#2D3032"}}>
+      <h1 className="text-6xl text-start  font-Helvetica text-[48px] font-normal  mb-6" style={{color:"#2D3032"}}>
       {/* <h1 className="text-6xl text-start mb-6 font-medium" style={{ fontFamily: "Yantramanav, Helvetica, sans-serif" }}> */}
  
         Resolve your Doubts here.
@@ -37,7 +37,7 @@ export default function FAQ() {
               onClick={() => toggleQuestion(id)}
             >
               <span className="text-lg mb-8 font-semibold break-words sm:text-3xl">
-                {id}. <span className="sm:ml-12 translate-x-[20px] font-normal font-Helvetica">{question}</span>
+                {id}. <span className="sm:ml-12 translate-x-[20px] font-semibold text-[24px] font-Helvetica">{question}</span>
               </span>
               <button
                 className={`text-[#1600ea] text-xl text-center border-[#1600ea] border sm:text-3xl lg:text-3xl sm:mb-10 rounded-full w-14 h-14 ${openQuestion === id ? 'bg-[#1600ea] text-white' : 'bg-white'} t`}

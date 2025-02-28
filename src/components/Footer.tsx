@@ -21,18 +21,9 @@ function Footer() {
         <div className="hidden lg:flex lg:flex-col cursor-pointer sm:ml-[-19px]">
           <h5 className="text-[15px] font-semibold mb-4 text-[#997200]">PLATFORM</h5>
           <ul className="gap-2 transform -translate-x-[1px] text-[15px]">
-            <li className="mb-2 hover:text-sky-600"><p>Text 1</p></li>
-            <li className="mb-2 hover:text-sky-600"><p>Text 2</p></li>
-            <li className="mb-2 hover:text-sky-600"><p>Text 3</p></li>
-            <li className="mb-2 hover:text-sky-600">Text 5</li>
-            <li>Text 6</li>
-          </ul>
-          <h5 className="text-[15px] font-semibold mt-6 mb-4 text-[#997200] transform -translate-x-[1px]">
-            YET TO BE DECIDED
-          </h5>
-          <ul className="transform -translate-x-[1px] text-[15px]">
-            <li className="mb-2 hover:text-sky-600">Text 1</li>
-            <li className="hover:text-sky-600">Text 2</li>
+            <li className="mb-2 text-[14px] font-Helvetica font-normal hover:text-sky-600"><p>Social Media Audit</p></li>
+            <li className="mb-2 text-[14px] font-Helvetica font-normal hover:text-sky-600"><p>Designera Learning</p></li>
+            
           </ul>
         </div>
 
@@ -128,9 +119,9 @@ function Footer() {
           <h5 className="text-[15px]  font-semibold mb-4 text-start text-[#997200]">GET IN TOUCH</h5>
           <div className="text-start text-[15px]">
           <p>Please connect with us at</p>
-          <p className="mb-4">+91-XXXXXXXXXX</p>
+          <p className="mb-4">+91-7974100169</p>
           <p className="">
-            or Write us at <a className="" href="mailto:EMAIL">EMAIL</a>
+            or Write us at <a className="" href="mailto:EMAIL">designera@gmail.com</a>
           </p>
           </div>
         </div>

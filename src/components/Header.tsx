@@ -15,17 +15,22 @@ export default function Navbar() {
   ];
 
   return (
+    <>
+    
     <motion.nav
-      className="bg-[#0f0e24] border-b-2 border-[#262440] text-white px-6 py-4 lg:pl-56 lg:pr-20 flex justify-between items-center shadow-bottom-white relative z-50"
+      className="bg-[#0f0e24] border-b-2 h-[68px] border-[#262440] text-white px-[79px] py-4  flex justify-between items-center shadow-bottom-white relative z-50"
       initial={{ y: -50, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
       {/* Left Navigation Items */}
       <ul className="hidden md:flex space-x-8">
+         <div>
+            <img className="h-[26.62px] w-[130px]" src="/logo.svg" alt="" />
+          </div>
         {navItems.map((item) => (
           <li key={item.name} className="group relative sm:ml-10">
-            <span className="cursor-pointer flex text-white items-center font-raleway text-md gap-2">
+            <span className="cursor-pointer flex text-white items-center font-Helvetica text-[16px] font-normal gap-2">
               {item.name}
               <span className="cursor-pointer">
                 {/* SVG Arrow */}
@@ -68,7 +73,7 @@ export default function Navbar() {
           className="hidden md:inline-block border border-white px-4 py-1 hover:bg-white hover:text-[#0f0e24] transition"
         >
           <div className="flex items-center gap-2">
-            <p>Hire Talent</p>
+            <p>Find Work</p>
             <div className="text-2xl">
               <LuArrowUpRight />
             </div>
@@ -116,14 +121,17 @@ export default function Navbar() {
             </div>
           ))}
           <a href="#" className="block border border-white px-4 py-2 rounded text-center">
-            <div className="flex items-center justify-center gap-2">
-              <p>Hire Talent</p>
+            <div className="flex items-center justify-center gap-2 h-[32px] w-[128px]">
+              <p className="ont-Helvetica text-base font-normal">Find Work</p>
               <LuArrowUpRight />
             </div>
           </a>
-          <a href="#" className="block bg-blue-600 px-4 py-2 rounded text-center">Get Started</a>
+          <a href="#" className="block bg-blue-600 h-[32px] w-[128px] px-4 py-2 rounded text-center font-Helvetica text-base font-normal">Get Started</a>
         </motion.div>
       )}
     </motion.nav>
+    </>
   );
 }
+
+      

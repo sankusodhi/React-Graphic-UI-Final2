@@ -43,8 +43,8 @@ function BusinessUI() {
       </section>
 
       <section className="text-center py-12">
-        <h2 className="text-4xl font-normal font-Helvetica sm:text-6xl mb-24">
-          Explore Perfect needs with us.
+        <h2 className="text-4xl font-normal font-Helvetica sm:text-[60px] mb-24">
+          Explore Perfect needs with Designera.
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 sm:px-12">
           {[

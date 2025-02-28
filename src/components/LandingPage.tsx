@@ -14,7 +14,7 @@ export default function LandingPage() {
         transition={{ duration: 0.8 }}
         className="text-center w-full max-w-screen-lg"
       >
-        <h1 className="text-white text-lg sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl  mb-1 font-normal font-Helvetica  leading-tight">
+        <h1 className="text-white text-lg sm:text-2xl md:text-4xl lg:text-6xl xl:text-6xl  mb-1 font-normal font-Helvetica text-[60px]  leading-tight">
           Unlock your Potential to get
           <p className="mt-1 sm:mt-2">noticed among Top 1% ventures!</p>
         </h1>
