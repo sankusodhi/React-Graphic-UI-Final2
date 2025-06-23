@@ -7,7 +7,7 @@ const Logo_slider = () => {
 const settings = {
   dots: false,
   infinite: true,
-  slidesToShow: 9, // Default for large screens
+  slidesToShow: 9,
   slidesToScroll: 1,
   autoplay: true,
   speed: 2000,
@@ -16,25 +16,25 @@ const settings = {
   arrows: false,
   responsive: [
     {
-      breakpoint: 1280, // For screens below 1280px (Large screens)
+      breakpoint: 1280, 
       settings: {
         slidesToShow: 6,
       },
     },
     {
-      breakpoint: 1024, // For screens below 1024px (Tablets)
+      breakpoint: 1024, 
       settings: {
         slidesToShow: 4,
       },
     },
     {
-      breakpoint: 768, // For screens below 768px (Small tablets)
+      breakpoint: 768, 
       settings: {
         slidesToShow: 3,
       },
     },
     {
-      breakpoint: 480, // For screens below 480px (Mobile)
+      breakpoint: 480, 
       settings: {
         slidesToShow: 2,
       },
